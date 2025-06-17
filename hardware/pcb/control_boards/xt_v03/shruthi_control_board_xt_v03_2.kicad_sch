@@ -5,6 +5,145 @@
 	(uuid "0e9aa2d5-f90c-4e97-b3e5-331afed5724d")
 	(paper "User" 425.45 298.602)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "shruthi_control_board_xt_v03-eagle-import:4051N"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -425,151 +564,6 @@
 						(effects
 							(font
 								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "shruthi_control_board_xt_v03-eagle-import:C-US025-024X044"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.016 0.635 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.016 -4.191 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "shruthi_control_board_xt_v03:C025-024X044"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAPACITOR, American symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C-US025-024X044_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.4668 -1.8504)
-					(mid -3.7688 -1.6361)
-					(end -4.9335 -1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1)
-					(mid -0.9038 -0.0189)
-					(end -1.4403 1.2025)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -5124,8 +5118,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:C-US025-024X044")
-		(at 142.24 223.52 0)
+		(lib_id "Device:C")
+		(at 142.24 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5133,7 +5127,7 @@
 		(dnp no)
 		(uuid "03ad7dcd-ff4a-4811-bf86-a4e22aab3f95")
 		(property "Reference" "C9"
-			(at 143.256 222.885 0)
+			(at 143.256 224.155 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5142,7 +5136,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 143.256 227.711 0)
+			(at 143.256 228.981 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5151,7 +5145,7 @@
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:C025-024X044"
-			(at 142.24 223.52 0)
+			(at 143.2052 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,8 +5153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 142.24 223.52 0)
+		(property "Datasheet" "~"
+			(at 142.24 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,8 +5162,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 142.24 223.52 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,8 +5529,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:C-US025-024X044")
-		(at 134.62 223.52 0)
+		(lib_id "Device:C")
+		(at 134.62 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5544,7 +5538,7 @@
 		(dnp no)
 		(uuid "132723b4-b190-48f4-b101-8b0f800f8312")
 		(property "Reference" "C7"
-			(at 135.636 222.885 0)
+			(at 135.636 224.155 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5553,7 +5547,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 135.636 227.711 0)
+			(at 135.636 228.981 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5562,7 +5556,7 @@
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:C025-024X044"
-			(at 134.62 223.52 0)
+			(at 135.5852 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,8 +5564,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 134.62 223.52 0)
+		(property "Datasheet" "~"
+			(at 134.62 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,8 +5573,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 134.62 223.52 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,8 +6204,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:C-US025-024X044")
-		(at 127 223.52 0)
+		(lib_id "Device:C")
+		(at 127 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6219,7 +6213,7 @@
 		(dnp no)
 		(uuid "259c9e33-2c62-4615-b56c-40d6045ae60d")
 		(property "Reference" "C6"
-			(at 128.016 222.885 0)
+			(at 128.016 224.155 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6228,7 +6222,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 128.016 227.711 0)
+			(at 128.016 228.981 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6237,7 +6231,7 @@
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:C025-024X044"
-			(at 127 223.52 0)
+			(at 127.9652 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,8 +6239,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 127 223.52 0)
+		(property "Datasheet" "~"
+			(at 127 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,8 +6248,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 127 223.52 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,8 +9178,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:C-US025-024X044")
-		(at 152.4 223.52 0)
+		(lib_id "Device:C")
+		(at 152.4 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9193,7 +9187,7 @@
 		(dnp no)
 		(uuid "8f0ddf50-001c-49ac-92be-caedb978d138")
 		(property "Reference" "C8"
-			(at 153.416 222.885 0)
+			(at 153.416 224.155 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9202,7 +9196,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 153.416 227.711 0)
+			(at 153.416 228.981 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9211,7 +9205,7 @@
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:C025-024X044"
-			(at 152.4 223.52 0)
+			(at 153.3652 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,8 +9213,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 152.4 223.52 0)
+		(property "Datasheet" "~"
+			(at 152.4 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9228,8 +9222,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 223.52 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
