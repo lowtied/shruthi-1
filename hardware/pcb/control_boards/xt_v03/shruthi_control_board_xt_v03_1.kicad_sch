@@ -828,6 +828,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2387,217 +2560,6 @@
 						)
 					)
 					(number "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "shruthi_control_board_xt_v03-eagle-import:CRYSTALHC49U-V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 2.54 1.016 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "shruthi_control_board_xt_v03:HC49U-V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CRYSTAL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CRYSTALHC49U-V_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.016 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.778) (xy -1.016 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 1.524) (xy -0.381 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 -1.524) (xy 0.381 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.524) (xy -0.381 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 -1.524) (xy 0.381 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.778) (xy 1.016 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "1"
-					(at -2.159 -1.143 0)
-					(effects
-						(font
-							(size 0.8636 0.734)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "2"
-					(at 1.524 -1.143 0)
-					(effects
-						(font
-							(size 0.8636 0.734)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -4481,6 +4443,12 @@
 		(uuid "0c0256cf-938c-4328-8628-c70972ed8f0a")
 	)
 	(junction
+		(at 142.24 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "157a7152-7328-496d-a9c6-ec526ade85ed")
+	)
+	(junction
 		(at 248.92 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4565,16 +4533,16 @@
 		(uuid "b6083213-262f-4eca-a60d-0f0062fcaa1a")
 	)
 	(junction
+		(at 142.24 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7ecef1a-4cf3-4768-9259-bc518bae118e")
+	)
+	(junction
 		(at 332.74 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3cc30d7-df67-4981-9e53-ec57dd8773b8")
-	)
-	(junction
-		(at 142.24 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3e07609-ffce-42f3-999d-6447bf0abec8")
 	)
 	(junction
 		(at 231.14 248.92)
@@ -4593,12 +4561,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8c3f9ec-a5ed-40d5-b23f-4ecac9a71022")
-	)
-	(junction
-		(at 142.24 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed8f28b0-1143-4d99-8257-f8c48c013f0d")
 	)
 	(junction
 		(at 210.82 248.92)
@@ -4800,6 +4762,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 116.84) (xy 147.32 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1c39b90f-623d-4c5c-9ddd-ffe062e5d488")
+	)
+	(wire
+		(pts
 			(xy 147.32 116.84) (xy 147.32 114.3)
 		)
 		(stroke
@@ -4920,7 +4892,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 106.68) (xy 147.32 106.68)
+			(xy 137.16 106.68) (xy 142.24 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -5027,16 +4999,6 @@
 			(type solid)
 		)
 		(uuid "3a58c7da-235f-46fe-9180-ac8bf6be3f97")
-	)
-	(wire
-		(pts
-			(xy 142.24 116.84) (xy 142.24 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3a943775-00d2-4632-87c2-42231f8639d4")
 	)
 	(wire
 		(pts
@@ -5200,6 +5162,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 115.57) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545a8134-1a22-4365-98f4-08fc2f9b866c")
+	)
+	(wire
+		(pts
 			(xy 152.4 101.6) (xy 152.4 99.06)
 		)
 		(stroke
@@ -5307,6 +5279,16 @@
 			(type solid)
 		)
 		(uuid "611c9fb5-8ed1-4e98-9393-11bc557db0d6")
+	)
+	(wire
+		(pts
+			(xy 142.24 106.68) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c06251-f04c-408c-ac88-2ea39e1faf90")
 	)
 	(wire
 		(pts
@@ -5590,16 +5572,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 142.24 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a1e31c66-8d97-4633-902a-379098bab2b1")
-	)
-	(wire
-		(pts
 			(xy 195.58 124.46) (xy 198.12 124.46)
 		)
 		(stroke
@@ -5840,16 +5812,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 116.84) (xy 147.32 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c3395da9-2482-424c-b1c5-d844cfb4bba3")
-	)
-	(wire
-		(pts
 			(xy 261.62 111.76) (xy 261.62 114.3)
 		)
 		(stroke
@@ -5877,16 +5839,6 @@
 			(type solid)
 		)
 		(uuid "ca4bd8cf-3a24-4bfd-a0f2-b281b59bcfc7")
-	)
-	(wire
-		(pts
-			(xy 142.24 106.68) (xy 142.24 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cc71d5a9-602f-4862-ab58-d2494e6c5813")
 	)
 	(wire
 		(pts
@@ -6067,6 +6019,16 @@
 			(type solid)
 		)
 		(uuid "eee9ede8-47eb-47d2-9ad3-a290e8a0d548")
+	)
+	(wire
+		(pts
+			(xy 142.24 106.68) (xy 147.32 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eefd3c91-63a4-480f-9a2e-ec239956e74d")
 	)
 	(wire
 		(pts
@@ -9485,7 +9447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:CRYSTALHC49U-V")
+		(lib_id "Device:Crystal")
 		(at 142.24 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9520,7 +9482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -9529,7 +9491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Two pin crystal"
 			(at 142.24 111.76 0)
 			(effects
 				(font
