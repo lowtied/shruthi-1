@@ -144,6 +144,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4109,211 +4233,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "shruthi_control_board_xt_v03-eagle-import:R-US_0204/7"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RESISTOR, American symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_0204/7_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "emilie.o.gillet@gmail.com"
 		(exclude_from_sim no)
@@ -5092,6 +5011,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 233.68) (xy 156.21 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e175e2f-ceef-4693-a4e1-31ed04af22cb")
+	)
+	(wire
+		(pts
 			(xy 210.82 109.22) (xy 208.28 109.22)
 		)
 		(stroke
@@ -5149,6 +5078,16 @@
 			(type solid)
 		)
 		(uuid "11919d55-92e4-40eb-a114-aa75246fb8ad")
+	)
+	(wire
+		(pts
+			(xy 278.13 231.14) (xy 279.4 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11992dfa-f0e9-482a-b4b6-6547f91adb1e")
 	)
 	(wire
 		(pts
@@ -5752,6 +5691,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 256.54) (xy 165.1 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa1e630-149e-42e4-9219-8411d5a04359")
+	)
+	(wire
+		(pts
 			(xy 256.54 231.14) (xy 256.54 228.6)
 		)
 		(stroke
@@ -5912,7 +5861,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 223.52) (xy 154.94 223.52)
+			(xy 142.24 223.52) (xy 156.21 223.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -5949,6 +5898,16 @@
 			(type solid)
 		)
 		(uuid "43fac31d-0167-4c0e-a2e3-86959136869e")
+	)
+	(wire
+		(pts
+			(xy 163.83 195.58) (xy 165.1 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4454b782-e228-4adf-8103-190ffde90e73")
 	)
 	(wire
 		(pts
@@ -6222,6 +6181,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 243.84) (xy 156.21 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a884c9d-7642-4e86-85dd-da8e605d118a")
+	)
+	(wire
+		(pts
 			(xy 259.08 231.14) (xy 259.08 228.6)
 		)
 		(stroke
@@ -6269,6 +6238,16 @@
 			(type solid)
 		)
 		(uuid "5e6483eb-1c2b-4f8e-8a82-72d6eba5325a")
+	)
+	(wire
+		(pts
+			(xy 163.83 243.84) (xy 165.1 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6124bd6e-08a5-4137-be23-285ff2e974d6")
 	)
 	(wire
 		(pts
@@ -6499,16 +6478,6 @@
 			(type solid)
 		)
 		(uuid "71d48a92-b213-4730-a1ce-9284100c3cc7")
-	)
-	(wire
-		(pts
-			(xy 165.1 205.74) (xy 167.64 205.74)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7207a960-c4cc-4626-b795-76a8390329a9")
 	)
 	(wire
 		(pts
@@ -6762,6 +6731,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 195.58) (xy 156.21 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840f9556-99a6-419f-9f08-f75e6f6f887b")
+	)
+	(wire
+		(pts
 			(xy 345.44 104.14) (xy 345.44 144.78)
 		)
 		(stroke
@@ -6982,6 +6961,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 205.74) (xy 167.64 205.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "91341da9-b094-41b8-bb17-df561612f60c")
+	)
+	(wire
+		(pts
 			(xy 175.26 233.68) (xy 177.8 233.68)
 		)
 		(stroke
@@ -7009,6 +6998,16 @@
 			(type solid)
 		)
 		(uuid "9522f965-ccbf-4164-899d-3db53e15325f")
+	)
+	(wire
+		(pts
+			(xy 163.83 218.44) (xy 165.1 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9555bf0f-20f4-4042-a965-7ac9ed89b2cc")
 	)
 	(wire
 		(pts
@@ -7122,6 +7121,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 256.54) (xy 156.21 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9b1ec2-40ba-4df7-ab9c-1ea380300cf9")
+	)
+	(wire
+		(pts
 			(xy 317.5 139.7) (xy 337.82 139.7)
 		)
 		(stroke
@@ -7172,16 +7181,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 190.5) (xy 167.64 190.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a2080050-2ec9-4bfd-9a8a-e52b60254f39")
-	)
-	(wire
-		(pts
 			(xy 309.88 109.22) (xy 317.5 109.22)
 		)
 		(stroke
@@ -7202,7 +7201,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 231.14) (xy 269.24 231.14)
+			(xy 264.16 231.14) (xy 270.51 231.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -7352,7 +7351,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 218.44) (xy 154.94 218.44)
+			(xy 139.7 218.44) (xy 156.21 218.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -7902,7 +7901,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 205.74) (xy 154.94 205.74)
+			(xy 137.16 205.74) (xy 156.21 205.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -7972,6 +7971,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 233.68) (xy 167.64 233.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e4db7504-f21d-42f9-b37d-0a13bad21a5d")
+	)
+	(wire
+		(pts
 			(xy 144.78 238.76) (xy 144.78 233.68)
 		)
 		(stroke
@@ -7989,16 +7998,6 @@
 			(type solid)
 		)
 		(uuid "e607b97e-ce61-49b0-b6be-2ee61fac545c")
-	)
-	(wire
-		(pts
-			(xy 165.1 233.68) (xy 167.64 233.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e87e5757-553e-49e2-87de-4974d150db20")
 	)
 	(wire
 		(pts
@@ -8052,6 +8051,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 190.5) (xy 156.21 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f437f5e4-0ce7-49a2-9fde-fc909b740c66")
+	)
+	(wire
+		(pts
 			(xy 147.32 134.62) (xy 154.94 134.62)
 		)
 		(stroke
@@ -8069,6 +8078,16 @@
 			(type solid)
 		)
 		(uuid "f4b9fce1-f5ec-482b-b15f-3ceeaec26701")
+	)
+	(wire
+		(pts
+			(xy 163.83 223.52) (xy 165.1 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f636bbdf-a3bf-448f-aa4a-725c0a592f4c")
 	)
 	(wire
 		(pts
@@ -8159,6 +8178,16 @@
 			(type solid)
 		)
 		(uuid "fe534d80-c3d1-4c83-a0c6-ca350ffd64b7")
+	)
+	(wire
+		(pts
+			(xy 163.83 190.5) (xy 167.64 190.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fe5818d8-4fbe-48c8-b13f-fd8c3f2b1e0b")
 	)
 	(wire
 		(pts
@@ -8651,33 +8680,41 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:R-US_0204/7")
-		(at 160.02 223.52 0)
+		(lib_id "Device:R")
+		(at 160.02 223.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0dc9942e-9d40-4004-8646-13a30102d011")
 		(property "Reference" "R35"
-			(at 156.21 222.0214 0)
+			(at 160.02 215.9 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "220"
-			(at 163.83 226.822 0)
+			(at 160.02 219.71 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+			(at 160.02 225.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 160.02 223.52 0)
 			(effects
 				(font
@@ -8686,16 +8723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 160.02 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 223.52 0)
 			(effects
 				(font
@@ -8999,33 +9027,41 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:R-US_0204/7")
-		(at 160.02 195.58 0)
+		(lib_id "Device:R")
+		(at 160.02 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "159521eb-1c69-4695-a3be-d635f4e680ab")
 		(property "Reference" "R33"
-			(at 156.21 194.0814 0)
+			(at 160.02 187.96 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "220"
-			(at 163.83 198.882 0)
+			(at 160.02 191.77 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+			(at 160.02 197.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 160.02 195.58 0)
 			(effects
 				(font
@@ -9034,16 +9070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 160.02 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 195.58 0)
 			(effects
 				(font
@@ -9305,33 +9332,41 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:R-US_0204/7")
-		(at 274.32 231.14 180)
+		(lib_id "Device:R")
+		(at 274.32 231.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "28518c2d-26fb-4c93-8d54-e27d7bc27c6f")
 		(property "Reference" "R2"
-			(at 278.13 232.6386 0)
+			(at 274.32 223.52 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "R_LCD"
-			(at 278.13 227.838 0)
+			(at 274.32 227.33 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+			(at 274.32 229.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 274.32 231.14 0)
 			(effects
 				(font
@@ -9340,16 +9375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 274.32 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 274.32 231.14 0)
 			(effects
 				(font
@@ -10158,33 +10184,41 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:R-US_0204/7")
-		(at 160.02 243.84 0)
+		(lib_id "Device:R")
+		(at 160.02 243.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "444b76d5-0f61-45c7-9480-b2655fbc1864")
 		(property "Reference" "R37"
-			(at 156.21 242.3414 0)
+			(at 160.02 236.22 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "220"
-			(at 163.83 247.142 0)
+			(at 160.02 240.03 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+			(at 160.02 245.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 160.02 243.84 0)
 			(effects
 				(font
@@ -10193,16 +10227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 160.02 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 243.84 0)
 			(effects
 				(font
@@ -10227,33 +10252,41 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:R-US_0204/7")
-		(at 160.02 190.5 0)
+		(lib_id "Device:R")
+		(at 160.02 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "45ca0283-c666-4fd7-aeec-b86f073466d7")
 		(property "Reference" "R31"
-			(at 156.21 189.0014 0)
+			(at 160.02 182.88 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "220"
-			(at 163.83 193.802 0)
+			(at 160.02 186.69 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+			(at 160.02 192.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 160.02 190.5 0)
 			(effects
 				(font
@@ -10262,16 +10295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 160.02 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 190.5 0)
 			(effects
 				(font
@@ -10365,33 +10389,41 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:R-US_0204/7")
-		(at 160.02 233.68 0)
+		(lib_id "Device:R")
+		(at 160.02 233.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "49941e22-5ded-4d17-b291-b270419721a0")
 		(property "Reference" "R36"
-			(at 156.21 232.1814 0)
+			(at 160.02 226.06 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "220"
-			(at 163.83 236.982 0)
+			(at 160.02 229.87 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+			(at 160.02 235.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 160.02 233.68 0)
 			(effects
 				(font
@@ -10400,16 +10432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 160.02 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 233.68 0)
 			(effects
 				(font
@@ -12244,33 +12267,41 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:R-US_0204/7")
-		(at 160.02 205.74 0)
+		(lib_id "Device:R")
+		(at 160.02 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a5e33e4e-dd03-493e-bb27-7db2bf9981af")
 		(property "Reference" "R34"
-			(at 156.21 204.2414 0)
+			(at 160.02 198.12 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "220"
-			(at 163.83 209.042 0)
+			(at 160.02 201.93 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+			(at 160.02 207.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 160.02 205.74 0)
 			(effects
 				(font
@@ -12279,16 +12310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 160.02 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 205.74 0)
 			(effects
 				(font
@@ -12908,33 +12930,41 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:R-US_0204/7")
-		(at 160.02 256.54 0)
+		(lib_id "Device:R")
+		(at 160.02 256.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b7f43bd8-6751-47a7-854a-a7bd05d09e38")
 		(property "Reference" "R38"
-			(at 156.21 255.0414 0)
+			(at 160.02 248.92 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "220"
-			(at 163.83 259.842 0)
+			(at 160.02 252.73 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+			(at 160.02 258.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 160.02 256.54 0)
 			(effects
 				(font
@@ -12943,16 +12973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 160.02 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 256.54 0)
 			(effects
 				(font
@@ -14247,33 +14268,41 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:R-US_0204/7")
-		(at 160.02 218.44 0)
+		(lib_id "Device:R")
+		(at 160.02 218.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f9162705-7fa1-4efe-ba88-770639b19779")
 		(property "Reference" "R32"
-			(at 156.21 216.9414 0)
+			(at 160.02 210.82 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Value" "220"
-			(at 163.83 221.742 0)
+			(at 160.02 214.63 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+			(at 160.02 220.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 160.02 218.44 0)
 			(effects
 				(font
@@ -14282,16 +14311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 160.02 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 160.02 218.44 0)
 			(effects
 				(font
