@@ -144,6 +144,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "shruthi_control_board_xt_v03-eagle-import:4051N"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1171,110 +1296,6 @@
 						)
 					)
 					(number "P$2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "shruthi_control_board_xt_v03-eagle-import:VCC"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#P+"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -1.016 3.556 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -5331,7 +5352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 167.64 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5375,7 +5396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 167.64 175.26 0)
 			(effects
 				(font
@@ -5397,7 +5418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 193.04 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5441,7 +5462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 193.04 60.96 0)
 			(effects
 				(font
@@ -5463,7 +5484,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 132.08 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5507,7 +5528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 132.08 215.9 0)
 			(effects
 				(font
@@ -5598,7 +5619,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 116.84 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5642,7 +5663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 116.84 93.98 0)
 			(effects
 				(font
@@ -5736,7 +5757,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 304.8 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5780,7 +5801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 304.8 137.16 0)
 			(effects
 				(font
@@ -5802,7 +5823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 142.24 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5846,7 +5867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 142.24 175.26 0)
 			(effects
 				(font
@@ -5940,7 +5961,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 381 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5984,7 +6005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 381 137.16 0)
 			(effects
 				(font
@@ -7198,7 +7219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 167.64 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7242,7 +7263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 167.64 93.98 0)
 			(effects
 				(font
@@ -7264,7 +7285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 193.04 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7308,7 +7329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 193.04 139.7 0)
 			(effects
 				(font
@@ -7573,7 +7594,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 330.2 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7617,7 +7638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 330.2 58.42 0)
 			(effects
 				(font
@@ -7843,7 +7864,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 355.6 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7887,7 +7908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 355.6 137.16 0)
 			(effects
 				(font
@@ -8236,7 +8257,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 167.64 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8280,7 +8301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 167.64 60.96 0)
 			(effects
 				(font
@@ -8302,7 +8323,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 381 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8346,7 +8367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 381 91.44 0)
 			(effects
 				(font
@@ -8716,7 +8737,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 142.24 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8760,7 +8781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 142.24 93.98 0)
 			(effects
 				(font
@@ -8782,7 +8803,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 330.2 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8826,7 +8847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 330.2 91.44 0)
 			(effects
 				(font
@@ -8848,7 +8869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 116.84 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8892,7 +8913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 116.84 175.26 0)
 			(effects
 				(font
@@ -9046,7 +9067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 193.04 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9090,7 +9111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 193.04 175.26 0)
 			(effects
 				(font
@@ -9112,7 +9133,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 167.64 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9156,7 +9177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 167.64 139.7 0)
 			(effects
 				(font
@@ -9247,7 +9268,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 381 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9291,7 +9312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 381 58.42 0)
 			(effects
 				(font
@@ -9490,7 +9511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 304.8 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9534,7 +9555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 304.8 205.74 0)
 			(effects
 				(font
@@ -10114,7 +10135,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 142.24 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10158,7 +10179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 142.24 60.96 0)
 			(effects
 				(font
@@ -10246,7 +10267,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 355.6 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10290,7 +10311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 355.6 91.44 0)
 			(effects
 				(font
@@ -10444,7 +10465,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 330.2 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10488,7 +10509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 330.2 137.16 0)
 			(effects
 				(font
@@ -10576,7 +10597,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 193.04 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10620,7 +10641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 193.04 93.98 0)
 			(effects
 				(font
@@ -10714,7 +10735,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 116.84 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10758,7 +10779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 116.84 60.96 0)
 			(effects
 				(font
@@ -10780,7 +10801,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 142.24 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10824,7 +10845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 142.24 139.7 0)
 			(effects
 				(font
@@ -11300,7 +11321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 304.8 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11344,7 +11365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 304.8 58.42 0)
 			(effects
 				(font
@@ -11366,7 +11387,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 355.6 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11410,7 +11431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 355.6 58.42 0)
 			(effects
 				(font
@@ -11952,7 +11973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 304.8 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11996,7 +12017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 304.8 91.44 0)
 			(effects
 				(font
@@ -12268,7 +12289,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 99.06 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12312,7 +12333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 99.06 213.36 0)
 			(effects
 				(font
@@ -12334,7 +12355,7 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:VCC")
+		(lib_id "power:VCC")
 		(at 116.84 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12378,7 +12399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 116.84 139.7 0)
 			(effects
 				(font
