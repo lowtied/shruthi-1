@@ -2727,98 +2727,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "shruthi_control_board_xt_v03-eagle-import:GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "shruthi_control_board_xt_v03-eagle-import:MAB5SH"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4351,12 +4259,6 @@
 		(uuid "26d0d51e-b7da-467c-85dd-c9a4f1deab22")
 	)
 	(junction
-		(at 124.46 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a47533f-3b38-4d20-9756-0fb919281d1e")
-	)
-	(junction
 		(at 332.74 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4445,6 +4347,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd2fb80b-19d2-43ea-892b-8173a48f8372")
+	)
+	(junction
+		(at 124.46 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1055e7a-0308-43dc-82e2-f1e917536eee")
 	)
 	(junction
 		(at 213.36 165.1)
@@ -7474,16 +7382,17 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:GND")
-		(at 345.44 157.48 0)
+		(lib_id "power:GND")
+		(at 345.44 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "240e8c8e-b44d-40f2-8b7f-6df0638435ec")
 		(property "Reference" "#GND11"
-			(at 345.44 157.48 0)
+			(at 345.44 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,16 +7401,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 342.9 160.02 0)
+			(at 347.98 156.21 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 157.48 0)
+			(at 345.44 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 157.48 0)
+			(at 345.44 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,8 +7427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 345.44 157.48 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 345.44 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,16 +7449,17 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:GND")
-		(at 215.9 193.04 0)
+		(lib_id "power:GND")
+		(at 215.9 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "24332551-bb0e-40dd-8291-8afe2332952c")
 		(property "Reference" "#GND19"
-			(at 215.9 193.04 0)
+			(at 215.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,16 +7468,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 195.58 0)
+			(at 213.36 191.77 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 193.04 0)
+			(at 215.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +7486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 193.04 0)
+			(at 215.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,8 +7494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 215.9 193.04 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,16 +7729,17 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:GND")
-		(at 152.4 127 0)
+		(lib_id "power:GND")
+		(at 152.4 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2d006b67-0732-4c97-9016-3f92807b0ce0")
 		(property "Reference" "#GND20"
-			(at 152.4 127 0)
+			(at 152.4 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7837,16 +7748,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 129.54 0)
+			(at 152.4 129.54 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 127 0)
+			(at 152.4 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,7 +7765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 127 0)
+			(at 152.4 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,8 +7773,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 127 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8462,16 +8372,17 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:GND")
-		(at 241.3 177.8 0)
+		(lib_id "power:GND")
+		(at 241.3 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4d95e8af-cc0f-4036-87cd-b27bedd41509")
 		(property "Reference" "#GND18"
-			(at 241.3 177.8 0)
+			(at 241.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,16 +8391,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 180.34 0)
+			(at 243.84 176.53 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 177.8 0)
+			(at 241.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +8409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 177.8 0)
+			(at 241.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8506,8 +8417,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 241.3 177.8 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8675,16 +8586,17 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:GND")
-		(at 137.16 134.62 0)
+		(lib_id "power:GND")
+		(at 137.16 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "630717c0-a329-423b-933e-74cede645744")
 		(property "Reference" "#GND17"
-			(at 137.16 134.62 0)
+			(at 137.16 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,16 +8605,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 137.16 0)
+			(at 134.62 133.35 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 134.62 0)
+			(at 137.16 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8711,7 +8623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 134.62 0)
+			(at 137.16 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,8 +8631,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 137.16 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,16 +8719,17 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:GND")
-		(at 360.68 121.92 0)
+		(lib_id "power:GND")
+		(at 360.68 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6ad0cbd1-6b29-4257-8d22-f3e4419a9903")
 		(property "Reference" "#GND12"
-			(at 360.68 121.92 0)
+			(at 360.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,16 +8738,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 358.14 124.46 0)
+			(at 363.22 120.65 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 360.68 121.92 0)
+			(at 360.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8843,7 +8756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 121.92 0)
+			(at 360.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,8 +8764,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 360.68 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 360.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9073,16 +8986,17 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:GND")
-		(at 152.4 134.62 0)
+		(lib_id "power:GND")
+		(at 152.4 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "85d01a80-2fb2-440e-9819-63ea9713ad83")
 		(property "Reference" "#GND13"
-			(at 152.4 134.62 0)
+			(at 152.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9091,16 +9005,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 137.16 0)
+			(at 154.94 133.35 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 134.62 0)
+			(at 152.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9109,7 +9023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 134.62 0)
+			(at 152.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,8 +9031,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,16 +9395,17 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:GND")
-		(at 210.82 254 0)
+		(lib_id "power:GND")
+		(at 210.82 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b1b1ce25-7660-41d6-9538-c4239ebe40fe")
 		(property "Reference" "#GND1"
-			(at 210.82 254 0)
+			(at 210.82 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,16 +9414,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 256.54 0)
+			(at 213.36 252.73 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 254 0)
+			(at 210.82 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 254 0)
+			(at 210.82 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9525,8 +9440,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 210.82 254 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,16 +9531,17 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:GND")
-		(at 261.62 116.84 0)
+		(lib_id "power:GND")
+		(at 261.62 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b7ad1a80-98a1-4577-8e5b-5a58fb5423c2")
 		(property "Reference" "#GND3"
-			(at 261.62 116.84 0)
+			(at 261.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,16 +9550,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 119.38 0)
+			(at 264.16 115.57 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 116.84 0)
+			(at 261.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +9568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 116.84 0)
+			(at 261.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9660,8 +9576,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 261.62 116.84 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,16 +9878,17 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:GND")
-		(at 236.22 129.54 0)
+		(lib_id "power:GND")
+		(at 236.22 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "dad147c8-7cb7-4104-a83c-87321265cde4")
 		(property "Reference" "#GND21"
-			(at 236.22 129.54 0)
+			(at 236.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9980,16 +9897,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 132.08 0)
+			(at 238.76 128.27 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 129.54 0)
+			(at 236.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,7 +9915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 129.54 0)
+			(at 236.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10006,8 +9923,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 236.22 129.54 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,16 +10374,17 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:GND")
-		(at 124.46 119.38 0)
+		(lib_id "power:GND")
+		(at 124.46 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ee617890-7335-4761-a912-518e159ce168")
 		(property "Reference" "#GND14"
-			(at 124.46 119.38 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10475,16 +10393,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 121.92 0)
+			(at 121.92 118.11 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 119.38 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10493,7 +10411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 119.38 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10501,8 +10419,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 124.46 119.38 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
