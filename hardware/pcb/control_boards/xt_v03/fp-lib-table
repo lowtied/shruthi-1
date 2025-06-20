@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "shruthi_control_board_xt_v03")(type "KiCad")(uri "$(KIPRJMOD)/shruthi_control_board_xt_v03.pretty")(options "")(descr ""))
-  (lib (name "Shruthi")(type "KiCad")(uri "../../../hardware/libraries/Shruthi.pretty")(options "")(descr ""))
+  (lib (name "Shruthi")(type "KiCad")(uri "../../../../hardware/libraries/Shruthi.pretty")(options "")(descr ""))
 )
