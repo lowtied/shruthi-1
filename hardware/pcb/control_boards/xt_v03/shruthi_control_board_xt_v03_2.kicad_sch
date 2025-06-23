@@ -6894,7 +6894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:DIL16"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 50.8 139.7 0)
 			(effects
 				(font
@@ -7341,7 +7341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:DIL16"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 241.3 139.7 0)
 			(effects
 				(font
@@ -8133,7 +8133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:DIL16"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 241.3 50.8 0)
 			(effects
 				(font
@@ -9596,7 +9596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:DIL16"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 50.8 50.8 0)
 			(effects
 				(font
