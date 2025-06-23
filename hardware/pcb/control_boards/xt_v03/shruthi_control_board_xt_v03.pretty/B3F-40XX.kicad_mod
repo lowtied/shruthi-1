@@ -857,7 +857,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "361fe6a4-560a-4ed7-b004-77cfe9dcaa77")
 	)
-	(pad "2" thru_hole oval
+	(pad "1" thru_hole oval
 		(at 6.2484 -2.4892)
 		(size 3.6068 1.8034)
 		(drill 1.1938)
@@ -867,7 +867,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "200d4190-625e-45e1-8a85-6c98f1ca80c2")
 	)
-	(pad "3" thru_hole oval
+	(pad "2" thru_hole oval
 		(at -6.2484 2.4892)
 		(size 3.6068 1.8034)
 		(drill 1.1938)
@@ -877,7 +877,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "c53f3e0f-4531-4d35-8274-87dfaf2d8cdb")
 	)
-	(pad "4" thru_hole oval
+	(pad "2" thru_hole oval
 		(at 6.2484 2.4892)
 		(size 3.6068 1.8034)
 		(drill 1.1938)

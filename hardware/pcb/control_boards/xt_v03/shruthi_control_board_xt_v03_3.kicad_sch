@@ -1232,6 +1232,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1451,293 +1587,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "shruthi_control_board_xt_v03-eagle-import:40-XX"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -6.35 -2.54 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 3.175 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "OMRON SWITCH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "40-XX_1_0"
-				(polyline
-					(pts
-						(xy -4.445 1.905) (xy -4.445 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 1.905) (xy -3.175 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 0) (xy -4.445 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 0) (xy -3.175 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -1.905) (xy -3.175 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.905) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "P"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "S1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "P1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
 							)
 						)
 					)
@@ -3608,12 +3457,6 @@
 		(uuid "018c5855-c1bb-4bb0-b8b5-c8d29f652cfa")
 	)
 	(junction
-		(at 309.88 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01b3685e-6f6d-4374-82e3-fb8d220609c5")
-	)
-	(junction
 		(at 207.01 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3632,52 +3475,16 @@
 		(uuid "19381e56-d983-44e8-bf7f-bc3373436570")
 	)
 	(junction
-		(at 204.47 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19cf98b4-b31b-4f2d-8dfb-1e6c67624ee2")
-	)
-	(junction
-		(at 309.88 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bb8ab58-ae6c-49ae-a67e-d3fe1c9219af")
-	)
-	(junction
-		(at 91.44 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c7c63b4-78bb-47d9-959d-0d0cafff143d")
-	)
-	(junction
 		(at 312.42 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c8cf550-4f99-4042-8a57-594710278e76")
 	)
 	(junction
-		(at 309.88 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1db5e1a8-791b-47c3-a0cc-a3027cdbb8b6")
-	)
-	(junction
 		(at 335.28 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ddb618d-1d9d-49a9-bc15-8af9b9cdb5a8")
-	)
-	(junction
-		(at 204.47 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dedaf72-b306-416b-8dd8-8d6bc9b11752")
-	)
-	(junction
-		(at 91.44 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e4aad42-4370-4361-be56-69c00e2473f6")
 	)
 	(junction
 		(at 207.01 53.34)
@@ -3692,22 +3499,10 @@
 		(uuid "292a9153-844e-463b-b912-cfff53adcc26")
 	)
 	(junction
-		(at 204.47 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "299685be-10d6-4c00-bcd3-c1e76a5939b9")
-	)
-	(junction
 		(at 177.8 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2aa1fc67-69b4-4bf3-aaba-94c948f1bb46")
-	)
-	(junction
-		(at 309.88 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ac107ac-fcad-4f4c-967d-a537b5bcf96f")
 	)
 	(junction
 		(at 237.49 114.3)
@@ -3722,22 +3517,10 @@
 		(uuid "385194f4-107e-4f99-9a6b-42bdf0ceb888")
 	)
 	(junction
-		(at 91.44 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e3ae1ee-fa8f-4e17-a175-93701f16bc4d")
-	)
-	(junction
 		(at 228.6 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e8eebae-7b94-4c14-b61d-a5361669a2d0")
-	)
-	(junction
-		(at 309.88 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f35ea21-c433-447a-afd6-39800aeee08c")
 	)
 	(junction
 		(at 109.22 124.46)
@@ -3758,40 +3541,16 @@
 		(uuid "4c2e23cf-cbae-482e-9278-245498adb43b")
 	)
 	(junction
-		(at 204.47 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cb8092c-42fc-464c-9cfe-71a48e446581")
-	)
-	(junction
 		(at 353.06 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e574ff9-4054-45a7-bcaa-02ac998a6d4f")
 	)
 	(junction
-		(at 91.44 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "512550bf-696c-45df-bf93-973975ddb76d")
-	)
-	(junction
-		(at 204.47 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "561dc3e5-ad3e-42bb-8811-0a64e78abc89")
-	)
-	(junction
 		(at 337.82 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c9f523b-a9e4-481c-af50-00fb8b3b8021")
-	)
-	(junction
-		(at 309.88 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f33426c-7508-4077-9470-e115d5ea9281")
 	)
 	(junction
 		(at 312.42 35.56)
@@ -3830,34 +3589,10 @@
 		(uuid "6ba1e277-1e9e-43ee-8f22-5e0e2d9b3e34")
 	)
 	(junction
-		(at 204.47 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dad3912-58a9-4eb1-aaeb-b48245ca3160")
-	)
-	(junction
 		(at 111.76 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "712cdb31-26ef-4138-9554-f94d6badd074")
-	)
-	(junction
-		(at 309.88 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "781beacc-b2ad-4a89-b4cf-135f0af0b19e")
-	)
-	(junction
-		(at 309.88 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79c7d69a-4d42-403a-b4f2-c35939ff49f9")
-	)
-	(junction
-		(at 309.88 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a718ef5-9892-4207-bf8c-78c6a23c0692")
 	)
 	(junction
 		(at 207.01 66.04)
@@ -3866,40 +3601,10 @@
 		(uuid "7d58d5c0-ed73-45d9-a529-b97dbba1a987")
 	)
 	(junction
-		(at 309.88 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8053b9b5-b748-4614-80f2-287d37b8401a")
-	)
-	(junction
 		(at 220.98 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82346794-1f91-4476-9bfd-507d0937dbae")
-	)
-	(junction
-		(at 91.44 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83794fda-3815-4a94-9cfb-75d98ed6dbdd")
-	)
-	(junction
-		(at 204.47 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "867f896e-425a-47c5-97b1-32fc120fc16d")
-	)
-	(junction
-		(at 204.47 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87afedae-6f78-4070-9f8d-021ef4242dfb")
-	)
-	(junction
-		(at 309.88 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88bac37e-e51c-426b-a075-9f4035fe5ec3")
 	)
 	(junction
 		(at 207.01 91.44)
@@ -3920,46 +3625,16 @@
 		(uuid "8b7988ba-b741-4949-bc2b-6b9012b24524")
 	)
 	(junction
-		(at 309.88 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cad53aa-7b26-4562-811b-b2b2e3f1059a")
-	)
-	(junction
 		(at 229.87 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dd4805a-0ed3-47f4-9e72-a96441aeecc1")
 	)
 	(junction
-		(at 91.44 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e97f0f9-b88c-456d-b0e4-52dd6a55c78a")
-	)
-	(junction
-		(at 309.88 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91baba80-0e7a-4ed0-a3c3-a3a075bd6565")
-	)
-	(junction
-		(at 309.88 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97870bfb-0b72-43da-93c5-8406894748a8")
-	)
-	(junction
 		(at 240.03 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99a700a8-79c7-4d16-aa24-d21a70bb565e")
-	)
-	(junction
-		(at 309.88 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9faf3187-2651-4572-9a5a-2b945c874693")
 	)
 	(junction
 		(at 347.98 147.32)
@@ -3972,18 +3647,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a72c1920-d562-482e-a519-b8eb6572e2e6")
-	)
-	(junction
-		(at 91.44 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8b6471d-fa8b-4c40-b62e-a0244d2fd35e")
-	)
-	(junction
-		(at 204.47 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa2218b4-ffc5-4c77-a94b-7bdb7cc061ce")
 	)
 	(junction
 		(at 124.46 129.54)
@@ -4016,34 +3679,16 @@
 		(uuid "b6803436-ee85-4647-9959-e869dc2a6e71")
 	)
 	(junction
-		(at 204.47 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7b548c4-054a-468c-8331-78c12ea9632e")
-	)
-	(junction
 		(at 312.42 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9771e38-8281-41d7-a499-8d93f9a28261")
 	)
 	(junction
-		(at 91.44 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1127308-ad8e-429d-8e02-3999eab2ff48")
-	)
-	(junction
 		(at 93.98 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8a2d5bc-666a-4677-a844-ef0d9a51025a")
-	)
-	(junction
-		(at 204.47 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce3f5ee7-2eae-4c8d-a278-34cc6e7df03b")
 	)
 	(junction
 		(at 124.46 127)
@@ -4056,18 +3701,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d25dde06-d278-441f-b191-37606c80af81")
-	)
-	(junction
-		(at 91.44 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3a12280-5f42-4393-898e-94e0c10d2287")
-	)
-	(junction
-		(at 91.44 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6dbba60-24d4-4d96-887a-568168f703a9")
 	)
 	(junction
 		(at 232.41 119.38)
@@ -4088,22 +3721,10 @@
 		(uuid "e1073cfe-e2cb-47c1-a0f7-1925c594b0bd")
 	)
 	(junction
-		(at 204.47 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e324a4f7-6221-4404-a7ec-ce8eda40d55c")
-	)
-	(junction
 		(at 224.79 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e47004a5-99e4-49a1-a001-35ccbdd1f516")
-	)
-	(junction
-		(at 309.88 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9f3d73b-8230-4a0c-a340-d082c27fd0d4")
 	)
 	(junction
 		(at 124.46 132.08)
@@ -4175,7 +3796,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 78.74) (xy 91.44 78.74)
+			(xy 88.9 78.74) (xy 93.98 78.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -4205,7 +3826,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 114.3) (xy 204.47 114.3)
+			(xy 201.93 114.3) (xy 237.49 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -4255,7 +3876,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 104.14) (xy 91.44 104.14)
+			(xy 88.9 104.14) (xy 93.98 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -4305,16 +3926,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 121.92) (xy 314.96 121.92)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0d16fb6f-6e44-4234-9727-429726e23683")
-	)
-	(wire
-		(pts
 			(xy 330.2 45.72) (xy 330.2 152.4)
 		)
 		(stroke
@@ -4335,7 +3946,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 88.9) (xy 201.93 88.9)
+			(xy 201.93 88.9) (xy 212.09 88.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -4345,7 +3956,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 76.2) (xy 204.47 76.2)
+			(xy 201.93 76.2) (xy 214.63 76.2)
 		)
 		(stroke
 			(width 0.1524)
@@ -4385,16 +3996,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 66.04) (xy 207.01 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "14aba414-f24b-41c4-8a9d-a2c935a68e7c")
-	)
-	(wire
-		(pts
 			(xy 355.6 132.08) (xy 358.14 132.08)
 		)
 		(stroke
@@ -4425,7 +4026,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 58.42) (xy 309.88 58.42)
+			(xy 307.34 58.42) (xy 327.66 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -4455,17 +4056,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 101.6) (xy 209.55 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "19dc4f49-48c5-4059-83bd-21ce2dc05af0")
-	)
-	(wire
-		(pts
-			(xy 201.93 101.6) (xy 204.47 101.6)
+			(xy 201.93 101.6) (xy 209.55 101.6)
 		)
 		(stroke
 			(width 0.1524)
@@ -4485,16 +4076,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 114.3) (xy 119.38 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1a6d9c6d-84ef-4b13-bfd9-99b7d66e626a")
-	)
-	(wire
-		(pts
 			(xy 393.7 147.32) (xy 393.7 149.86)
 		)
 		(stroke
@@ -4505,7 +4086,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 53.34) (xy 91.44 53.34)
+			(xy 88.9 53.34) (xy 93.98 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -4532,16 +4113,6 @@
 			(type solid)
 		)
 		(uuid "1c3e16a1-07bc-4312-bc0a-366acfac82e9")
-	)
-	(wire
-		(pts
-			(xy 91.44 104.14) (xy 93.98 104.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1c71360f-af22-44b3-b74e-d5a29a664f57")
 	)
 	(wire
 		(pts
@@ -4635,16 +4206,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 40.64) (xy 207.01 40.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "221aaff3-a339-4fb4-ab73-bf9b2716311e")
-	)
-	(wire
-		(pts
 			(xy 207.01 104.14) (xy 207.01 91.44)
 		)
 		(stroke
@@ -4665,7 +4226,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 53.34) (xy 204.47 53.34)
+			(xy 201.93 53.34) (xy 207.01 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -4725,7 +4286,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 121.92) (xy 309.88 121.92)
+			(xy 307.34 121.92) (xy 314.96 121.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -4755,16 +4316,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 71.12) (xy 325.12 71.12)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2c66f125-984d-4064-ab4f-7901b1b0147f")
-	)
-	(wire
-		(pts
 			(xy 49.53 82.55) (xy 52.07 82.55)
 		)
 		(stroke
@@ -4785,7 +4336,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 96.52) (xy 309.88 96.52)
+			(xy 307.34 96.52) (xy 320.04 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -4845,16 +4396,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 111.76) (xy 309.88 111.76)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "33a0d737-c87a-4eb8-a81c-673527ed3f3c")
-	)
-	(wire
-		(pts
 			(xy 314.96 137.16) (xy 340.36 137.16)
 		)
 		(stroke
@@ -4895,7 +4436,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 48.26) (xy 309.88 48.26)
+			(xy 307.34 48.26) (xy 312.42 48.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -4942,16 +4483,6 @@
 			(type solid)
 		)
 		(uuid "39888d66-3bbc-4a58-84f6-a888a4949cd6")
-	)
-	(wire
-		(pts
-			(xy 309.88 96.52) (xy 320.04 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "39d0bb3e-24a6-4bb0-8258-030b801ab861")
 	)
 	(wire
 		(pts
@@ -5015,7 +4546,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 104.14) (xy 204.47 104.14)
+			(xy 201.93 104.14) (xy 207.01 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -5105,16 +4636,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 88.9) (xy 212.09 88.9)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "41f7dd47-2b2d-477b-8e4a-80d0fc91db07")
-	)
-	(wire
-		(pts
 			(xy 142.24 223.52) (xy 156.21 223.52)
 		)
 		(stroke
@@ -5122,16 +4643,6 @@
 			(type solid)
 		)
 		(uuid "437161a4-e478-464d-a4d4-0815a544c024")
-	)
-	(wire
-		(pts
-			(xy 309.88 99.06) (xy 312.42 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "43d804e5-4570-4954-818e-114f5b112b52")
 	)
 	(wire
 		(pts
@@ -5175,7 +4686,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 63.5) (xy 91.44 63.5)
+			(xy 88.9 63.5) (xy 104.14 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -5185,7 +4696,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 91.44) (xy 201.93 91.44)
+			(xy 201.93 91.44) (xy 207.01 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -5195,7 +4706,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 71.12) (xy 307.34 71.12)
+			(xy 307.34 71.12) (xy 325.12 71.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -5265,7 +4776,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 73.66) (xy 309.88 73.66)
+			(xy 307.34 73.66) (xy 312.42 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -5285,13 +4796,23 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 99.06) (xy 309.88 99.06)
+			(xy 307.34 99.06) (xy 312.42 99.06)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "4e837ebb-9fd6-423d-b64a-e25cfd39e41d")
+	)
+	(wire
+		(pts
+			(xy 312.42 111.76) (xy 312.42 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4ef59ff2-9c54-4d26-b3e5-ca020cb210af")
 	)
 	(wire
 		(pts
@@ -5352,16 +4873,6 @@
 			(type solid)
 		)
 		(uuid "5787de21-6432-450d-a9e1-0f2b41aa9f83")
-	)
-	(wire
-		(pts
-			(xy 309.88 86.36) (xy 312.42 86.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5882f4fd-a6c3-44c3-a1cd-0310141bc61e")
 	)
 	(wire
 		(pts
@@ -5495,23 +5006,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 88.9) (xy 88.9 88.9)
+			(xy 88.9 88.9) (xy 99.06 88.9)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "63c198c6-5fd8-47b8-adad-18242c82786c")
-	)
-	(wire
-		(pts
-			(xy 309.88 73.66) (xy 312.42 73.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "658b628f-7d0e-451a-a896-abba6e13b02b")
 	)
 	(wire
 		(pts
@@ -5542,16 +5043,6 @@
 			(type solid)
 		)
 		(uuid "67aacc2c-64d1-459b-b35a-ba457d7bb034")
-	)
-	(wire
-		(pts
-			(xy 309.88 45.72) (xy 330.2 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "683c6030-0da1-41af-b7be-1bcd32826e05")
 	)
 	(wire
 		(pts
@@ -5615,33 +5106,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 66.04) (xy 91.44 66.04)
+			(xy 88.9 66.04) (xy 93.98 66.04)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "6d38fec0-1cb7-4c88-b556-23c4b598c5f8")
-	)
-	(wire
-		(pts
-			(xy 91.44 66.04) (xy 93.98 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6e4421ad-60fe-4c45-9fab-260f1e71c845")
-	)
-	(wire
-		(pts
-			(xy 309.88 58.42) (xy 327.66 58.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6eee536a-d6b3-4db8-97c6-fd15b52942bc")
 	)
 	(wire
 		(pts
@@ -5675,16 +5146,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 124.46) (xy 312.42 124.46)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "73b51a37-aac1-49ab-8daf-ceac22e7984e")
-	)
-	(wire
-		(pts
 			(xy 355.6 175.26) (xy 370.84 175.26)
 		)
 		(stroke
@@ -5692,16 +5153,6 @@
 			(type default)
 		)
 		(uuid "73f19f9b-24c4-4092-95ad-c051a7947e49")
-	)
-	(wire
-		(pts
-			(xy 207.01 40.64) (xy 207.01 53.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7463f187-4cc2-4339-ab1e-6fbbd1797ac7")
 	)
 	(wire
 		(pts
@@ -5745,16 +5196,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 124.46) (xy 312.42 111.76)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7753b34f-9a68-4420-b0d3-cb8509668040")
-	)
-	(wire
-		(pts
 			(xy 127 144.78) (xy 124.46 144.78)
 		)
 		(stroke
@@ -5765,7 +5206,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 114.3) (xy 91.44 114.3)
+			(xy 88.9 114.3) (xy 119.38 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -5795,17 +5236,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 91.44) (xy 204.47 91.44)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7c9d9c53-d81b-4316-8c11-27a6b2e3928e")
-	)
-	(wire
-		(pts
-			(xy 309.88 83.82) (xy 307.34 83.82)
+			(xy 307.34 83.82) (xy 322.58 83.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -5875,16 +5306,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 60.96) (xy 312.42 60.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "826e0ed8-e63e-403d-82ab-fc0c736d5f52")
-	)
-	(wire
-		(pts
 			(xy 121.92 137.16) (xy 127 137.16)
 		)
 		(stroke
@@ -5915,7 +5336,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 60.96) (xy 309.88 60.96)
+			(xy 307.34 60.96) (xy 312.42 60.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -5995,7 +5416,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 45.72) (xy 309.88 45.72)
+			(xy 307.34 45.72) (xy 330.2 45.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -6045,33 +5466,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 40.64) (xy 204.47 40.64)
+			(xy 201.93 40.64) (xy 207.01 40.64)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "8bceb118-4252-42c5-9617-f6fbbbbb36f7")
-	)
-	(wire
-		(pts
-			(xy 91.44 63.5) (xy 104.14 63.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8bd819a5-5b48-474d-af16-aa147896f771")
-	)
-	(wire
-		(pts
-			(xy 309.88 83.82) (xy 322.58 83.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8c09a9f9-5001-4acd-936e-958e817b3837")
 	)
 	(wire
 		(pts
@@ -6135,16 +5536,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 76.2) (xy 214.63 76.2)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8f511a55-b552-4505-9552-ad18aa6e370c")
-	)
-	(wire
-		(pts
 			(xy 104.14 124.46) (xy 109.22 124.46)
 		)
 		(stroke
@@ -6162,16 +5553,6 @@
 			(type default)
 		)
 		(uuid "90e74135-4301-4f28-9615-5c96db95b645")
-	)
-	(wire
-		(pts
-			(xy 204.47 50.8) (xy 219.71 50.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "910bd518-858e-432c-a4ae-7bb6345f17b2")
 	)
 	(wire
 		(pts
@@ -6205,16 +5586,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 35.56) (xy 312.42 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9522f965-ccbf-4164-899d-3db53e15325f")
-	)
-	(wire
-		(pts
 			(xy 163.83 218.44) (xy 165.1 218.44)
 		)
 		(stroke
@@ -6225,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 109.22) (xy 309.88 109.22)
+			(xy 307.34 109.22) (xy 317.5 109.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -6262,16 +5633,6 @@
 			(type solid)
 		)
 		(uuid "97fc4f55-07e5-4447-aeb8-f1da5f4a2115")
-	)
-	(wire
-		(pts
-			(xy 91.44 53.34) (xy 93.98 53.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9846c644-a107-4350-8cbe-5be349cbc93c")
 	)
 	(wire
 		(pts
@@ -6312,16 +5673,6 @@
 			(type solid)
 		)
 		(uuid "9ae70037-4b83-483b-be32-61a98be4b9f4")
-	)
-	(wire
-		(pts
-			(xy 91.44 76.2) (xy 101.6 76.2)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9b01cd9c-79e0-41c5-8108-dcf65d477884")
 	)
 	(wire
 		(pts
@@ -6405,16 +5756,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 109.22) (xy 317.5 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a263bf75-edbb-48e7-8597-90c6baff0cbc")
-	)
-	(wire
-		(pts
 			(xy 240.03 144.78) (xy 240.03 154.94)
 		)
 		(stroke
@@ -6452,16 +5793,6 @@
 			(type solid)
 		)
 		(uuid "a4ad2375-6193-4b8c-a0f5-fce4e06bd54d")
-	)
-	(wire
-		(pts
-			(xy 91.44 88.9) (xy 99.06 88.9)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a746e325-905a-4c28-969b-f0812cd3a08b")
 	)
 	(wire
 		(pts
@@ -6512,16 +5843,6 @@
 			(type solid)
 		)
 		(uuid "a878ad9b-8097-4246-90d7-6f6758f8e5a3")
-	)
-	(wire
-		(pts
-			(xy 91.44 78.74) (xy 93.98 78.74)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "aa03faae-1b56-4490-84bb-3a1f2f2d5b69")
 	)
 	(wire
 		(pts
@@ -6615,7 +5936,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 86.36) (xy 309.88 86.36)
+			(xy 307.34 86.36) (xy 312.42 86.36)
 		)
 		(stroke
 			(width 0.1524)
@@ -6635,7 +5956,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 101.6) (xy 88.9 101.6)
+			(xy 88.9 101.6) (xy 96.52 101.6)
 		)
 		(stroke
 			(width 0.1524)
@@ -6695,7 +6016,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 134.62) (xy 309.88 134.62)
+			(xy 307.34 134.62) (xy 342.9 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -6732,16 +6053,6 @@
 			(type solid)
 		)
 		(uuid "c2fad6f9-2d03-4163-baf7-fc6d7d6f7cb9")
-	)
-	(wire
-		(pts
-			(xy 204.47 104.14) (xy 207.01 104.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c615db23-e323-43c3-9235-672c7d8b438c")
 	)
 	(wire
 		(pts
@@ -6815,7 +6126,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 124.46) (xy 309.88 124.46)
+			(xy 307.34 124.46) (xy 312.42 124.46)
 		)
 		(stroke
 			(width 0.1524)
@@ -6865,7 +6176,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 78.74) (xy 204.47 78.74)
+			(xy 201.93 78.74) (xy 207.01 78.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -6905,16 +6216,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 101.6) (xy 96.52 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d67319e3-e266-4db7-8e23-30bed6612ef6")
-	)
-	(wire
-		(pts
 			(xy 240.03 129.54) (xy 240.03 130.81)
 		)
 		(stroke
@@ -6935,7 +6236,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 111.76) (xy 307.34 111.76)
+			(xy 307.34 111.76) (xy 312.42 111.76)
 		)
 		(stroke
 			(width 0.1524)
@@ -6955,7 +6256,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 50.8) (xy 201.93 50.8)
+			(xy 201.93 50.8) (xy 219.71 50.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -6965,7 +6266,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 66.04) (xy 204.47 66.04)
+			(xy 201.93 66.04) (xy 207.01 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -6985,16 +6286,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 48.26) (xy 312.42 48.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "df1db929-54a5-43f3-8755-d89c241e0d91")
-	)
-	(wire
-		(pts
 			(xy 330.2 152.4) (xy 353.06 152.4)
 		)
 		(stroke
@@ -7005,17 +6296,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 91.44) (xy 91.44 91.44)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "dfa89064-d0e1-4d0d-bc8f-c2a021045e6c")
-	)
-	(wire
-		(pts
-			(xy 91.44 76.2) (xy 88.9 76.2)
+			(xy 88.9 76.2) (xy 101.6 76.2)
 		)
 		(stroke
 			(width 0.1524)
@@ -7025,33 +6306,13 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 35.56) (xy 309.88 35.56)
+			(xy 307.34 35.56) (xy 312.42 35.56)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "e0ee8aca-1ffe-428f-8efd-c4de9b6d0685")
-	)
-	(wire
-		(pts
-			(xy 204.47 114.3) (xy 237.49 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e13f1eb8-c95e-41fe-80b4-1f2a1f732b8f")
-	)
-	(wire
-		(pts
-			(xy 204.47 53.34) (xy 207.01 53.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e166f5e1-2d96-41a4-b048-ca5c28ec0da0")
 	)
 	(wire
 		(pts
@@ -7155,16 +6416,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 134.62) (xy 342.9 134.62)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e607b97e-ce61-49b0-b6be-2ee61fac545c")
-	)
-	(wire
-		(pts
 			(xy 240.03 154.94) (xy 255.27 154.94)
 		)
 		(stroke
@@ -7205,7 +6456,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 63.5) (xy 201.93 63.5)
+			(xy 201.93 63.5) (xy 217.17 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -7242,6 +6493,16 @@
 			(type solid)
 		)
 		(uuid "ef3d4dc8-ff0b-45ba-98db-41fb859de1a8")
+	)
+	(wire
+		(pts
+			(xy 207.01 40.64) (xy 207.01 53.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f19e14c0-cfc7-4f2c-b686-649da78e42b7")
 	)
 	(wire
 		(pts
@@ -7335,23 +6596,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 88.9 91.44)
+			(xy 88.9 91.44) (xy 93.98 91.44)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "fbf6a734-fc21-4207-9ba6-4698b5d679a9")
-	)
-	(wire
-		(pts
-			(xy 204.47 78.74) (xy 207.01 78.74)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fdbfceb5-cff3-4501-bd92-fa0c4002061c")
 	)
 	(wire
 		(pts
@@ -7372,16 +6623,6 @@
 			(type solid)
 		)
 		(uuid "fe5818d8-4fbe-48c8-b13f-fd8c3f2b1e0b")
-	)
-	(wire
-		(pts
-			(xy 204.47 63.5) (xy 217.17 63.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ff81846d-bcbc-4a76-afb6-252f458e31ea")
 	)
 	(label "INPUT_CHAIN_2"
 		(at 270.51 111.76 0)
@@ -7998,9 +7239,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 201.93 96.52 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 201.93 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8009,21 +7249,21 @@
 		(fields_autoplaced yes)
 		(uuid "0f67a0b6-a606-4c1a-8020-074700423b80")
 		(property "Reference" "S18"
-			(at 195.58 94.615 0)
+			(at 199.39 94.615 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 195.58 98.425 0)
+			(at 199.39 98.425 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -8035,7 +7275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 201.93 96.52 0)
 			(effects
 				(font
@@ -8044,7 +7284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 201.93 96.52 0)
 			(effects
 				(font
@@ -8058,12 +7298,6 @@
 		)
 		(pin "1"
 			(uuid "7d91fefa-cfbb-4d3e-b9ea-24af16d12aff")
-		)
-		(pin "4"
-			(uuid "24d72754-0ae4-405b-bd58-9723a401f2d2")
-		)
-		(pin "3"
-			(uuid "c0bfda64-14cb-4dfb-b5a8-2c62a4d59f4d")
 		)
 		(instances
 			(project ""
@@ -8345,9 +7579,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 88.9 96.52 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 88.9 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8356,21 +7589,21 @@
 		(fields_autoplaced yes)
 		(uuid "19f61536-a2d9-4ac2-8855-0c463ed4bc9d")
 		(property "Reference" "S10"
-			(at 82.55 94.615 0)
+			(at 86.36 94.615 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 82.55 98.425 0)
+			(at 86.36 98.425 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -8382,7 +7615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -8391,7 +7624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -8399,18 +7632,12 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "f1d89b03-2f2f-4603-947c-9d66c1339353")
 		)
 		(pin "1"
 			(uuid "0ee0c5fb-2965-4094-97ed-c7726c925192")
 		)
 		(pin "2"
 			(uuid "8c2db3ac-fc16-4323-aff6-955ede897d4b")
-		)
-		(pin "4"
-			(uuid "be74d1ee-64b6-45ae-bd73-b9566b71b5bf")
 		)
 		(instances
 			(project ""
@@ -8534,9 +7761,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 201.93 83.82 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 201.93 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8545,21 +7771,21 @@
 		(fields_autoplaced yes)
 		(uuid "1f155c10-3acd-451c-ac8e-da450e6739c9")
 		(property "Reference" "S17"
-			(at 195.58 81.915 0)
+			(at 199.39 81.915 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 195.58 85.725 0)
+			(at 199.39 85.725 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -8571,7 +7797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 201.93 83.82 0)
 			(effects
 				(font
@@ -8580,7 +7806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 201.93 83.82 0)
 			(effects
 				(font
@@ -8592,14 +7818,8 @@
 		(pin "1"
 			(uuid "27022e07-d1a1-4441-b141-63a0550d2326")
 		)
-		(pin "3"
-			(uuid "89abf7b2-91c7-4892-ac0f-23a8daf40c69")
-		)
 		(pin "2"
 			(uuid "76fc599a-a586-48a0-9305-7dbfc3c9e673")
-		)
-		(pin "4"
-			(uuid "3090ed99-fed5-413d-94a0-91f7482201a8")
 		)
 		(instances
 			(project ""
@@ -8831,32 +8051,30 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 88.9 109.22 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 88.9 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c623308-2e14-4c87-810b-25bbf16ac6cb")
 		(property "Reference" "S11"
-			(at 82.55 107.315 0)
+			(at 86.36 107.315 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 82.55 111.125 0)
+			(at 86.36 111.125 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -8868,7 +8086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 88.9 109.22 0)
 			(effects
 				(font
@@ -8877,7 +8095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 88.9 109.22 0)
 			(effects
 				(font
@@ -8885,15 +8103,9 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "be69a6da-9cf3-4e58-a77e-4d792aede186")
 		)
 		(pin "1"
 			(uuid "c7d325f5-1467-4ef1-9347-4197408cd62c")
-		)
-		(pin "3"
-			(uuid "3a246aca-d95c-46c2-9632-8775e80edb87")
 		)
 		(pin "2"
 			(uuid "92fadf0d-6ea0-4e05-b72d-b4a0d137550c")
@@ -9541,9 +8753,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 201.93 109.22 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 201.93 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9552,21 +8763,21 @@
 		(fields_autoplaced yes)
 		(uuid "443113a1-8a56-4169-8590-0e88ce8e22e9")
 		(property "Reference" "S19"
-			(at 195.58 107.315 0)
+			(at 199.39 107.315 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 195.58 111.125 0)
+			(at 199.39 111.125 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -9578,7 +8789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 201.93 109.22 0)
 			(effects
 				(font
@@ -9587,7 +8798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 201.93 109.22 0)
 			(effects
 				(font
@@ -9598,12 +8809,6 @@
 		)
 		(pin "1"
 			(uuid "7af0c55b-294b-442f-8606-fe20614df72f")
-		)
-		(pin "3"
-			(uuid "63f938df-1086-4841-9fd5-0830256f7133")
-		)
-		(pin "4"
-			(uuid "59b841a1-8f9d-4607-bbfc-9216055b3b5d")
 		)
 		(pin "2"
 			(uuid "71b9655a-00f5-43eb-9336-d60ee214f830")
@@ -9958,31 +9163,31 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 307.34 116.84 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 307.34 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4e037747-e684-440c-95cd-6cbc61807a2c")
 		(property "Reference" "S1"
-			(at 300.99 114.3 90)
+			(at 304.8 114.935 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 303.53 120.015 90)
+			(at 304.8 118.745 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -9994,7 +9199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 307.34 116.84 0)
 			(effects
 				(font
@@ -10003,7 +9208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 307.34 116.84 0)
 			(effects
 				(font
@@ -10014,12 +9219,6 @@
 		)
 		(pin "2"
 			(uuid "c89b21fd-04b7-469a-a7d4-6cee68dfcaf0")
-		)
-		(pin "4"
-			(uuid "b37cc3f0-f531-4989-8f96-b17afdd1dd12")
-		)
-		(pin "3"
-			(uuid "94c1d345-eb13-435d-bc91-d6401e5ef905")
 		)
 		(pin "1"
 			(uuid "76159353-fb84-45bc-8c30-13e6dd1235d1")
@@ -10298,9 +9497,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 201.93 45.72 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 201.93 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10309,21 +9507,21 @@
 		(fields_autoplaced yes)
 		(uuid "5c36f51b-c868-4c29-90d0-19f5cb136c78")
 		(property "Reference" "S14"
-			(at 195.58 43.815 0)
+			(at 199.39 43.815 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 195.58 47.625 0)
+			(at 199.39 47.625 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -10335,7 +9533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 201.93 45.72 0)
 			(effects
 				(font
@@ -10344,7 +9542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 201.93 45.72 0)
 			(effects
 				(font
@@ -10355,12 +9553,6 @@
 		)
 		(pin "1"
 			(uuid "f35a2f26-7ffb-4fbb-b518-62f6aaa95269")
-		)
-		(pin "3"
-			(uuid "e4d04792-d71a-448a-a8cb-9e68bb816e7c")
-		)
-		(pin "4"
-			(uuid "e7cd083e-9cf5-476f-aa43-b72ff3dfec76")
 		)
 		(pin "2"
 			(uuid "3bf67751-62fe-4abe-8de1-f93b4c63909c")
@@ -10598,9 +9790,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 88.9 71.12 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 88.9 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10609,21 +9800,21 @@
 		(fields_autoplaced yes)
 		(uuid "688a6ab5-81eb-4ad4-b605-558f7446240b")
 		(property "Reference" "S4"
-			(at 82.55 69.215 0)
+			(at 86.36 69.215 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 82.55 73.025 0)
+			(at 86.36 73.025 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -10635,7 +9826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 88.9 71.12 0)
 			(effects
 				(font
@@ -10644,7 +9835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 88.9 71.12 0)
 			(effects
 				(font
@@ -10652,15 +9843,9 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "f3a19ef3-0a41-4923-a651-0530a547181a")
 		)
 		(pin "1"
 			(uuid "315f0f6b-a590-4423-8b2a-25ea7902a8ee")
-		)
-		(pin "3"
-			(uuid "0809d21b-5ef6-415c-8b51-fd8f2c2dddcc")
 		)
 		(pin "2"
 			(uuid "8be2c6e2-dee1-4fff-937a-c7f49f540d9a")
@@ -10874,31 +10059,31 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 307.34 129.54 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 307.34 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7c56789c-a6ca-44e5-a040-3f92fb863af7")
 		(property "Reference" "S2"
-			(at 300.99 127 90)
+			(at 304.8 127.635 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 303.53 132.715 90)
+			(at 304.8 131.445 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -10910,7 +10095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 307.34 129.54 0)
 			(effects
 				(font
@@ -10919,7 +10104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 307.34 129.54 0)
 			(effects
 				(font
@@ -10927,12 +10112,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "7fb51701-c2e2-4c94-ae75-94026b984c28")
-		)
-		(pin "3"
-			(uuid "147f826d-d34a-4cb9-809c-16135a42a41b")
 		)
 		(pin "1"
 			(uuid "caad914e-79a1-4fde-bc3e-545792da78ad")
@@ -11292,9 +10471,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 201.93 58.42 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 201.93 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11303,21 +10481,21 @@
 		(fields_autoplaced yes)
 		(uuid "975ec389-6178-4a5b-a0f8-8d8417b956db")
 		(property "Reference" "S15"
-			(at 195.58 56.515 0)
+			(at 199.39 56.515 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 195.58 60.325 0)
+			(at 199.39 60.325 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -11329,7 +10507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 201.93 58.42 0)
 			(effects
 				(font
@@ -11338,7 +10516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 201.93 58.42 0)
 			(effects
 				(font
@@ -11346,15 +10524,9 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "2e549225-dddc-499e-b85e-382caca1fcb6")
 		)
 		(pin "2"
 			(uuid "a2238433-efdd-472a-92be-bd93a99cfe81")
-		)
-		(pin "4"
-			(uuid "e0d98d34-090e-470a-a2ca-bddb05045053")
 		)
 		(pin "1"
 			(uuid "0e2e9961-5d4b-476b-840f-b5ff079fc6d7")
@@ -11480,9 +10652,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 201.93 71.12 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 201.93 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11491,21 +10662,21 @@
 		(fields_autoplaced yes)
 		(uuid "98001535-aa1c-4a0a-8d2a-dd0ae106ba63")
 		(property "Reference" "S16"
-			(at 195.58 69.215 0)
+			(at 199.39 69.215 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 195.58 73.025 0)
+			(at 199.39 73.025 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -11517,7 +10688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 201.93 71.12 0)
 			(effects
 				(font
@@ -11526,7 +10697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 201.93 71.12 0)
 			(effects
 				(font
@@ -11534,18 +10705,12 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "2cd49fb8-5b75-4452-b487-bdcc96335d32")
 		)
 		(pin "1"
 			(uuid "e915babb-304c-457e-8b5d-b6eb26f63837")
 		)
 		(pin "2"
 			(uuid "bc18f933-19ef-4c9f-8b3f-959dd25b8a4b")
-		)
-		(pin "4"
-			(uuid "eb36416d-b58d-4ce6-92e5-0775e8fc50ec")
 		)
 		(instances
 			(project ""
@@ -11623,9 +10788,8 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 88.9 83.82 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 88.9 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11634,21 +10798,21 @@
 		(fields_autoplaced yes)
 		(uuid "99b3d60b-b330-4f3e-a72b-d9829fde42d3")
 		(property "Reference" "S9"
-			(at 82.55 81.915 0)
+			(at 86.36 81.915 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 82.55 85.725 0)
+			(at 86.36 85.725 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -11660,7 +10824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 88.9 83.82 0)
 			(effects
 				(font
@@ -11669,7 +10833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 88.9 83.82 0)
 			(effects
 				(font
@@ -11677,18 +10841,12 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "04897fa0-36cb-416d-b2ed-0e55a7bb2f32")
 		)
 		(pin "1"
 			(uuid "13fda4b2-15ac-46a6-9431-b22896556085")
 		)
 		(pin "2"
 			(uuid "ee50074f-47cb-413a-90cb-8c0fbf3737a0")
-		)
-		(pin "4"
-			(uuid "eece917d-f19d-4406-8182-3250e06c6ea3")
 		)
 		(instances
 			(project ""
@@ -11946,31 +11104,31 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 307.34 40.64 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 307.34 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b0cc9997-1ad8-4ae5-8f06-51ff8824b156")
 		(property "Reference" "S8"
-			(at 300.99 38.1 90)
+			(at 304.8 38.735 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 303.53 43.815 90)
+			(at 304.8 42.545 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -11982,7 +11140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 307.34 40.64 0)
 			(effects
 				(font
@@ -11991,7 +11149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 307.34 40.64 0)
 			(effects
 				(font
@@ -11999,12 +11157,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "8c1ddbd2-797d-4509-b285-3ffb376a67eb")
-		)
-		(pin "4"
-			(uuid "d5d588ca-726a-4659-bb55-131834eb337f")
 		)
 		(pin "1"
 			(uuid "9b7f50ef-e670-403c-9702-2c51909aab0b")
@@ -12502,31 +11654,31 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 307.34 104.14 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 307.34 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bb81e887-4e41-48ee-bb6f-5e09e9f0c40f")
 		(property "Reference" "S6"
-			(at 300.99 101.6 90)
+			(at 304.8 102.235 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 303.53 107.315 90)
+			(at 304.8 106.045 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -12538,7 +11690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 307.34 104.14 0)
 			(effects
 				(font
@@ -12547,7 +11699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 307.34 104.14 0)
 			(effects
 				(font
@@ -12559,14 +11711,8 @@
 		(pin "2"
 			(uuid "5af8c7d6-3a3d-4024-973d-2625d786a957")
 		)
-		(pin "4"
-			(uuid "25705c66-1d4e-4eda-80e2-3c7da968ee82")
-		)
 		(pin "1"
 			(uuid "a5a8562e-071a-4d63-9d1c-974fe3b2e84f")
-		)
-		(pin "3"
-			(uuid "cde0716d-87df-499d-be32-47e86696841c")
 		)
 		(instances
 			(project ""
@@ -12647,31 +11793,31 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 307.34 91.44 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 307.34 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bd982d6b-eddd-4b80-8eec-a836dc867e1f")
 		(property "Reference" "S5"
-			(at 300.99 88.9 90)
+			(at 304.8 89.535 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 303.53 94.615 90)
+			(at 304.8 93.345 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -12683,7 +11829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 307.34 91.44 0)
 			(effects
 				(font
@@ -12692,7 +11838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 307.34 91.44 0)
 			(effects
 				(font
@@ -12700,15 +11846,9 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "704ae50e-1d47-415a-8ff4-493949a52fc4")
 		)
 		(pin "2"
 			(uuid "69b82195-a656-4de0-b11b-d06b4826ea1e")
-		)
-		(pin "4"
-			(uuid "d284f100-d495-4645-9669-5b4060aa1620")
 		)
 		(pin "1"
 			(uuid "3d7ae161-7af0-43e3-ac34-5f89380f3e6f")
@@ -12789,31 +11929,31 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 307.34 53.34 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 307.34 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cba94897-d04e-4e6e-b14d-dabab55d5101")
 		(property "Reference" "S7"
-			(at 300.99 50.8 90)
+			(at 304.8 51.435 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 303.53 56.515 90)
+			(at 304.8 55.245 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -12825,7 +11965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 307.34 53.34 0)
 			(effects
 				(font
@@ -12834,7 +11974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 307.34 53.34 0)
 			(effects
 				(font
@@ -12846,14 +11986,8 @@
 		(pin "1"
 			(uuid "1dfbc51e-90ec-49be-b792-de2175b4c0f0")
 		)
-		(pin "3"
-			(uuid "2f6c688b-1d46-48d6-bef1-2922e8893b62")
-		)
 		(pin "2"
 			(uuid "12f98468-5146-4bd9-8346-d93b6e84b9b1")
-		)
-		(pin "4"
-			(uuid "600d8a29-de05-460f-a411-d6bb97706662")
 		)
 		(instances
 			(project ""
@@ -13309,12 +12443,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 320.04 39.37 0)
+			(at 317.5 43.18 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13489,32 +12622,30 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 88.9 58.42 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 88.9 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e88819de-f878-40cd-a0e7-37481fadde53")
 		(property "Reference" "S3"
-			(at 82.55 56.515 0)
+			(at 86.36 60.325 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 82.55 60.325 0)
+			(at 86.36 56.515 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -13526,7 +12657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 88.9 58.42 0)
 			(effects
 				(font
@@ -13535,7 +12666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 88.9 58.42 0)
 			(effects
 				(font
@@ -13543,18 +12674,12 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "23a5f4ac-4353-4f88-88dc-3810db472983")
 		)
 		(pin "2"
 			(uuid "b276ee84-5dbe-4cfa-a021-c89d156161cf")
 		)
 		(pin "1"
 			(uuid "9a949816-b2b8-4970-a588-d8bbec384296")
-		)
-		(pin "3"
-			(uuid "e8304ce2-713f-4dc5-82b9-eeae7dc09d3e")
 		)
 		(instances
 			(project ""
@@ -13717,31 +12842,31 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 307.34 78.74 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 307.34 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "efa81535-b857-4c8d-9f3c-74370a0efab5")
 		(property "Reference" "S13"
-			(at 300.99 76.2 90)
+			(at 304.8 76.835 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 303.53 81.915 90)
+			(at 304.8 80.645 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -13753,7 +12878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 307.34 78.74 0)
 			(effects
 				(font
@@ -13762,7 +12887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 307.34 78.74 0)
 			(effects
 				(font
@@ -13770,15 +12895,9 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "8479e3f1-3525-4cc1-bf93-60f375c68452")
 		)
 		(pin "1"
 			(uuid "ba3f374e-5484-4d7a-b11f-d2a90560ce17")
-		)
-		(pin "3"
-			(uuid "24f33231-f52d-4c83-9f0e-ffac1d4d20e8")
 		)
 		(pin "2"
 			(uuid "b938f1e3-9b30-43cd-800f-9a8c6b4ee9b9")
@@ -14060,31 +13179,31 @@
 		)
 	)
 	(symbol
-		(lib_id "shruthi_control_board_xt_v03-eagle-import:40-XX")
-		(at 307.34 66.04 0)
-		(mirror x)
+		(lib_id "Switch:SW_SPST")
+		(at 307.34 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ffb461ee-c21d-4ed1-aae5-6bf4df1d7c39")
 		(property "Reference" "S12"
-			(at 300.99 63.5 90)
+			(at 304.8 64.135 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "40-XX"
-			(at 303.53 69.215 90)
+			(at 304.8 67.945 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "shruthi_control_board_xt_v03:B3F-40XX"
@@ -14096,7 +13215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 307.34 66.04 0)
 			(effects
 				(font
@@ -14105,7 +13224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 307.34 66.04 0)
 			(effects
 				(font
@@ -14119,12 +13238,6 @@
 		)
 		(pin "2"
 			(uuid "938eeca5-3314-472c-b456-873eb1a9b1c8")
-		)
-		(pin "4"
-			(uuid "b800fb54-57c2-4c45-b7c4-e4f36e33ef76")
-		)
-		(pin "3"
-			(uuid "4b98f6bd-9498-4ba6-b75e-5d77b79fab36")
 		)
 		(instances
 			(project ""
