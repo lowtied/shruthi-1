@@ -4735,16 +4735,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 158.75) (xy 187.96 158.75)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "59d356fd-a094-4dc8-9603-c185cfdd02d0")
-	)
-	(wire
-		(pts
 			(xy 350.52 149.86) (xy 358.14 149.86)
 		)
 		(stroke
@@ -5412,16 +5402,6 @@
 			(type default)
 		)
 		(uuid "90e74135-4301-4f28-9615-5c96db95b645")
-	)
-	(wire
-		(pts
-			(xy 186.69 168.91) (xy 190.5 168.91)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "91341da9-b094-41b8-bb17-df561612f60c")
 	)
 	(wire
 		(pts
@@ -6352,16 +6332,6 @@
 			(type solid)
 		)
 		(uuid "fe534d80-c3d1-4c83-a0c6-ca350ffd64b7")
-	)
-	(wire
-		(pts
-			(xy 186.69 153.67) (xy 190.5 153.67)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fe5818d8-4fbe-48c8-b13f-fd8c3f2b1e0b")
 	)
 	(label "INPUT_CHAIN_2"
 		(at 270.51 111.76 0)
