@@ -7475,7 +7475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display:HY1602E"
+		(property "Footprint" "shruthi_control_board_xt_v03:LCD-16X2"
 			(at 184.15 242.57 0)
 			(effects
 				(font
