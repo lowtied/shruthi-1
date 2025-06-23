@@ -135,7 +135,7 @@
 		(layer "F.SilkS")
 		(uuid "c802900f-9e1b-42ca-9b68-fb122c43adf2")
 	)
-	(pad "P$1" thru_hole rect
+	(pad "1" thru_hole rect
 		(at -2.5 -6.7 270)
 		(size 1.8796 1.8796)
 		(drill 1)
@@ -145,7 +145,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "59fd54cd-9b2b-4edc-b2c7-1dcf07986b18")
 	)
-	(pad "P$2" thru_hole rect
+	(pad "2" thru_hole rect
 		(at 0 -6.7 270)
 		(size 1.8796 1.8796)
 		(drill 1)
@@ -155,7 +155,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "27b7bc67-dc45-4d4e-945f-199e9a9d4d3c")
 	)
-	(pad "P$3" thru_hole rect
+	(pad "3" thru_hole rect
 		(at 2.5 -6.7 270)
 		(size 1.8796 1.8796)
 		(drill 1)
