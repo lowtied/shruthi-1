@@ -6985,7 +6985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 335.28 82.55 0)
 			(effects
 				(font
@@ -7917,7 +7917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 373.38 81.28 0)
 			(effects
 				(font
@@ -8464,7 +8464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 336.55 121.92 0)
 			(effects
 				(font
@@ -9023,7 +9023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 361.95 121.92 0)
 			(effects
 				(font
@@ -9367,7 +9367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:D-5"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 340.36 87.63 90)
 			(effects
 				(font
