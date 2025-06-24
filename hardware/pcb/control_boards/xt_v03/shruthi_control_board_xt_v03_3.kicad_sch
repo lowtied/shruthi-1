@@ -7650,7 +7650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC165N"
+		(property "Value" "74HC165"
 			(at 141.8433 106.68 0)
 			(effects
 				(font
@@ -10436,7 +10436,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC165N"
+		(property "Value" "74HC165"
 			(at 257.4133 106.68 0)
 			(effects
 				(font
@@ -10684,7 +10684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC165N"
+		(property "Value" "74HC165"
 			(at 372.9833 127 0)
 			(effects
 				(font
