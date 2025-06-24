@@ -9975,7 +9975,7 @@
 		(fields_autoplaced yes)
 		(uuid "97a22d83-3875-4d83-b071-bf13d5641d79")
 		(property "Reference" "IC8"
-			(at 77.0733 173.99 0)
+			(at 77.0733 210.82 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9983,8 +9983,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74595N"
-			(at 77.0733 177.8 0)
+		(property "Value" "74HC595"
+			(at 77.0733 214.63 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9992,7 +9992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:DIL16"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 74.93 193.04 0)
 			(effects
 				(font
