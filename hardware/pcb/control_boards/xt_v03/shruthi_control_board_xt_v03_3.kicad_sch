@@ -6647,7 +6647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 90.17 193.04 0)
 			(effects
 				(font
@@ -6917,7 +6917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:LED3MM"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 120.65 185.42 90)
 			(effects
 				(font
@@ -6977,7 +6977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "159521eb-1c69-4695-a3be-d635f4e680ab")
-		(property "Reference" "R33"
+		(property "Reference" "R32"
 			(at 90.17 185.42 90)
 			(effects
 				(font
@@ -6994,7 +6994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 90.17 185.42 0)
 			(effects
 				(font
@@ -7030,7 +7030,7 @@
 		(instances
 			(project "shruthi_control_board_xt_v03"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/1e4cf160-db0f-4db8-aa2b-cf7d135880af"
-					(reference "R33")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -7835,7 +7835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:LED3MM"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 101.6 198.12 90)
 			(effects
 				(font
@@ -7912,7 +7912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:LED3MM"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 105.41 195.58 90)
 			(effects
 				(font
@@ -8192,7 +8192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 90.17 198.12 0)
 			(effects
 				(font
@@ -8260,7 +8260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 90.17 182.88 0)
 			(effects
 				(font
@@ -8328,7 +8328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:LED3MM"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 116.84 187.96 90)
 			(effects
 				(font
@@ -8405,7 +8405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 90.17 195.58 0)
 			(effects
 				(font
@@ -9773,7 +9773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:LED3MM"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 113.03 190.5 90)
 			(effects
 				(font
@@ -10291,7 +10291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5e33e4e-dd03-493e-bb27-7db2bf9981af")
-		(property "Reference" "R34"
+		(property "Reference" "R33"
 			(at 90.17 187.96 90)
 			(effects
 				(font
@@ -10308,7 +10308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 90.17 187.96 0)
 			(effects
 				(font
@@ -10344,7 +10344,7 @@
 		(instances
 			(project "shruthi_control_board_xt_v03"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/1e4cf160-db0f-4db8-aa2b-cf7d135880af"
-					(reference "R34")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -10874,7 +10874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:LED3MM"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 124.46 182.88 90)
 			(effects
 				(font
@@ -11179,7 +11179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 90.17 200.66 0)
 			(effects
 				(font
@@ -11317,7 +11317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:LED3MM"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 109.22 193.04 90)
 			(effects
 				(font
@@ -11667,7 +11667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:LED3MM"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 97.79 200.66 90)
 			(effects
 				(font
@@ -12433,7 +12433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9162705-7fa1-4efe-ba88-770639b19779")
-		(property "Reference" "R32"
+		(property "Reference" "R34"
 			(at 90.17 190.5 90)
 			(effects
 				(font
@@ -12450,7 +12450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 90.17 190.5 0)
 			(effects
 				(font
@@ -12486,7 +12486,7 @@
 		(instances
 			(project "shruthi_control_board_xt_v03"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/1e4cf160-db0f-4db8-aa2b-cf7d135880af"
-					(reference "R32")
+					(reference "R34")
 					(unit 1)
 				)
 			)
