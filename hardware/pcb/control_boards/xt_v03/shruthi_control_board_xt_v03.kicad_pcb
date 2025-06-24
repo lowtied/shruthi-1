@@ -11337,9 +11337,9 @@
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "IC4"
-			(at 3.81 -2.33 90)
+			(at 1.27 -2.54 90)
 			(layer "F.SilkS")
-			(uuid "9e8e6015-ed51-4484-bc66-671e9007de6d")
+			(uuid "42dbb56a-fc57-47d9-87d5-b4c162814b5e")
 			(effects
 				(font
 					(size 1 1)
@@ -11348,9 +11348,9 @@
 			)
 		)
 		(property "Value" "4051"
-			(at 3.81 20.11 90)
-			(layer "F.Fab")
-			(uuid "cdb6a3ca-7ee9-423d-9662-6fce00e23b24")
+			(at 3.81 8.89 180)
+			(layer "F.SilkS")
+			(uuid "d2f6c480-7ff8-4e41-a167-8235a672ada0")
 			(effects
 				(font
 					(size 1 1)
@@ -11362,7 +11362,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0730824d-4bd4-43e0-abb3-f42141f6fa54")
+			(uuid "89d5dd0a-a3c6-455a-8898-815405fd3c3a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11374,7 +11374,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "446a1ff8-bb4e-4358-807f-ec48e98bfa1c")
+			(uuid "81cc39be-b11c-4ce9-a407-848fa0604d7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14568,9 +14568,9 @@
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "IC6"
-			(at 3.81 -2.33 90)
+			(at 1.27 -2.54 90)
 			(layer "F.SilkS")
-			(uuid "557cf935-e057-47a9-8f09-066dd6913afc")
+			(uuid "c951d525-39c3-46e1-97aa-217933855baa")
 			(effects
 				(font
 					(size 1 1)
@@ -14579,9 +14579,9 @@
 			)
 		)
 		(property "Value" "4051"
-			(at 3.81 20.11 90)
-			(layer "F.Fab")
-			(uuid "56923b71-0cf2-4621-8716-2f1926537a8f")
+			(at 3.86 8.694 0)
+			(layer "F.SilkS")
+			(uuid "2e6b20de-97a8-4329-9a4d-92df33ea4723")
 			(effects
 				(font
 					(size 1 1)
@@ -14593,7 +14593,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c39c32b-384f-466e-b50b-838e60b63e9f")
+			(uuid "d0cff17e-857b-472b-9bc4-f20e42c84c41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,7 +14605,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "529c619c-d12c-4a69-a2c6-cfc056f7637e")
+			(uuid "01085893-fd2b-46fb-856a-47a985d05d8f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94046,7 +94046,7 @@
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "IC7"
-			(at 3.81 -2.33 90)
+			(at 1.27 -2.54 90)
 			(layer "F.SilkS")
 			(uuid "b7d9d382-f286-4a6a-9da3-399bf96b4cd6")
 			(effects
@@ -94057,8 +94057,8 @@
 			)
 		)
 		(property "Value" "4051"
-			(at 3.81 20.11 90)
-			(layer "F.Fab")
+			(at 3.81 8.89 0)
+			(layer "F.SilkS")
 			(uuid "718ae877-27ca-4c60-b5ee-ccd2b7bed058")
 			(effects
 				(font
@@ -102903,7 +102903,7 @@
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads")
 		(property "Reference" "IC5"
-			(at 3.81 -2.33 90)
+			(at 1.27 -2.54 90)
 			(layer "F.SilkS")
 			(uuid "742160d8-1bf8-4ad3-a06e-f848ff51f7ca")
 			(effects
@@ -102914,8 +102914,8 @@
 			)
 		)
 		(property "Value" "4051"
-			(at 3.81 20.11 90)
-			(layer "F.Fab")
+			(at 3.81 8.89 180)
+			(layer "F.SilkS")
 			(uuid "eb699aed-c20e-4c9c-ab7a-08dbc82550b5")
 			(effects
 				(font
