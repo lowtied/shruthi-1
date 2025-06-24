@@ -7047,12 +7047,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 351.79 130.81 0)
+			(at 349.25 134.62 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7621,7 +7620,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 227.33 137.16 0)
 			(effects
 				(font
@@ -7829,7 +7828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:DIL08"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 240.03 147.32 0)
 			(effects
 				(font
@@ -8325,12 +8324,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 364.49 101.6 0)
+			(at 361.95 105.41 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9297,7 +9295,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:0204_7"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 224.79 137.16 0)
 			(effects
 				(font
@@ -9447,12 +9445,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 396.24 96.52 0)
+			(at 393.7 100.33 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9867,12 +9864,11 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 369.57 118.11 0)
+			(at 367.03 114.3 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9991,7 +9987,7 @@
 		(fields_autoplaced yes)
 		(uuid "edd54184-1aeb-4286-be59-d9f20e2bed8c")
 		(property "Reference" "OK1"
-			(at 365.0681 73.66 0)
+			(at 365.0681 97.79 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10000,7 +9996,7 @@
 			)
 		)
 		(property "Value" "6N137"
-			(at 365.0681 77.47 0)
+			(at 365.0681 101.6 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
