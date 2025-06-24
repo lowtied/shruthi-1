@@ -9784,7 +9784,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AVRISP"
+		(property "Value" "AVR ISP"
 			(at 248.92 62.865 0)
 			(effects
 				(font
@@ -9793,7 +9793,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:2X3"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 246.38 60.96 90)
 			(effects
 				(font
