@@ -7347,7 +7347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "shruthi_control_board_xt_v03:E2,5-7"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 55.88 31.75 0)
 			(effects
 				(font
