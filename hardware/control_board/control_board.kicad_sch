@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768")
-		(property "Sheetname" "shruthi_control_board_xt_v03_2"
+		(property "Sheetname" "pots"
 			(at 76.2 24.6884 0)
 			(effects
 				(font
@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "shruthi_control_board_xt_v03_2.kicad_sch"
+		(property "Sheetfile" "pots.kicad_sch"
 			(at 76.2 29.7946 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 			)
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9"
 					(page "2")
 				)
@@ -63,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1e4cf160-db0f-4db8-aa2b-cf7d135880af")
-		(property "Sheetname" "shruthi_control_board_xt_v03_3"
+		(property "Sheetname" "buttons"
 			(at 127 24.6884 0)
 			(effects
 				(font
@@ -72,7 +72,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "shruthi_control_board_xt_v03_3.kicad_sch"
+		(property "Sheetfile" "buttons.kicad_sch"
 			(at 127 29.7946 0)
 			(effects
 				(font
@@ -82,7 +82,7 @@
 			)
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9"
 					(page "3")
 				)
@@ -105,7 +105,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c50241e5-5b6f-44c4-a607-de1547ad5c99")
-		(property "Sheetname" "shruthi_control_board_xt_v03_1"
+		(property "Sheetname" "mcu"
 			(at 25.4 24.6884 0)
 			(effects
 				(font
@@ -114,7 +114,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "shruthi_control_board_xt_v03_1.kicad_sch"
+		(property "Sheetfile" "mcu.kicad_sch"
 			(at 25.4 29.7946 0)
 			(effects
 				(font
@@ -124,7 +124,7 @@
 			)
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9"
 					(page "1")
 				)

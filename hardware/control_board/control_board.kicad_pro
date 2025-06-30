@@ -633,15 +633,15 @@
     ],
     [
       "c50241e5-5b6f-44c4-a607-de1547ad5c99",
-      "shruthi_control_board_xt_v03_1"
+      "mcu"
     ],
     [
       "0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768",
-      "shruthi_control_board_xt_v03_2"
+      "pots"
     ],
     [
       "1e4cf160-db0f-4db8-aa2b-cf7d135880af",
-      "shruthi_control_board_xt_v03_3"
+      "buttons"
     ]
   ],
   "text_variables": {}

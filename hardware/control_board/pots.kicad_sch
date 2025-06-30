@@ -4736,7 +4736,7 @@
 			(uuid "1696a57f-1086-4049-ad63-56fcc899c583")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND56")
 					(unit 1)
@@ -4808,7 +4808,7 @@
 			(uuid "50350a15-b65a-46af-a275-a34ce6a047db")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R26")
 					(unit 1)
@@ -4878,7 +4878,7 @@
 			(uuid "7ccf1548-e38c-4e4a-b7d4-ef9c0b60d3d1")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "C9")
 					(unit 1)
@@ -4950,7 +4950,7 @@
 			(uuid "2e6d0e67-0cd4-406d-a2ac-e0057827190f")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R39")
 					(unit 1)
@@ -5021,7 +5021,7 @@
 			(uuid "00b0b4de-2b5f-467d-91a7-4a6820f2d08a")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R14")
 					(unit 1)
@@ -5087,7 +5087,7 @@
 			(uuid "c69758ad-e25c-4ba1-be26-0699a08a6383")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+18")
 					(unit 1)
@@ -5153,7 +5153,7 @@
 			(uuid "a6917874-0657-48b4-83ce-1527766a50ff")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND063")
 					(unit 1)
@@ -5219,7 +5219,7 @@
 			(uuid "790912cb-bed5-43bb-ba21-be1861dfafb2")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+25")
 					(unit 1)
@@ -5285,7 +5285,7 @@
 			(uuid "8dc5c0b4-29a3-459a-bc9f-22b12fbd916e")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+37")
 					(unit 1)
@@ -5355,7 +5355,7 @@
 			(uuid "61e9333b-81f9-4d6f-ae39-bc5e6c58ee61")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "C7")
 					(unit 1)
@@ -5421,7 +5421,7 @@
 			(uuid "7174e0df-6fbb-4e8c-9c1a-d0e3d345a5b9")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+26")
 					(unit 1)
@@ -5493,7 +5493,7 @@
 			(uuid "12479505-9b5e-4b87-a32f-90670a16c1f0")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R23")
 					(unit 1)
@@ -5559,7 +5559,7 @@
 			(uuid "4caaa6a9-b7a2-46bf-b57c-c71c4e07aca8")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+46")
 					(unit 1)
@@ -5625,7 +5625,7 @@
 			(uuid "30b6dfa6-e1c6-4b7e-992a-91ebe27689c0")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+17")
 					(unit 1)
@@ -5698,7 +5698,7 @@
 			(uuid "0b7c0812-7534-41ab-91c9-414357df7db7")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R8")
 					(unit 1)
@@ -5764,7 +5764,7 @@
 			(uuid "510d9d99-6fd9-4b1a-b823-1412bd8b3a6e")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+49")
 					(unit 1)
@@ -5830,7 +5830,7 @@
 			(uuid "55a85739-b248-4c41-a5fa-a20b96bfab72")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND34")
 					(unit 1)
@@ -5896,7 +5896,7 @@
 			(uuid "5e0a8b5a-ace9-448f-8672-11cebf053ec1")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND35")
 					(unit 1)
@@ -5962,7 +5962,7 @@
 			(uuid "b00f6d2f-1238-4dfb-98d2-8a5d84d7ab49")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND48")
 					(unit 1)
@@ -6032,7 +6032,7 @@
 			(uuid "90c941c0-bb91-476d-a90e-198bf6690ad7")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "C6")
 					(unit 1)
@@ -6104,7 +6104,7 @@
 			(uuid "01d3c14a-4fb8-4bb2-9d68-dfd06ad780f1")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R3")
 					(unit 1)
@@ -6176,7 +6176,7 @@
 			(uuid "e6e43604-dd43-431f-b0b1-9acabb493cac")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R24")
 					(unit 1)
@@ -6248,7 +6248,7 @@
 			(uuid "b8622403-22c8-450a-846b-788d1c269e61")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R41")
 					(unit 1)
@@ -6314,7 +6314,7 @@
 			(uuid "58ca7f4d-aedc-4aaf-9f36-2cf0675f7375")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND31")
 					(unit 1)
@@ -6386,7 +6386,7 @@
 			(uuid "dd439469-54ab-4f90-80e8-56ad187d03e9")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R46")
 					(unit 1)
@@ -6452,7 +6452,7 @@
 			(uuid "4f877141-94a3-4c7c-9fca-be2eecf74c17")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+051")
 					(unit 1)
@@ -6524,7 +6524,7 @@
 			(uuid "47d67509-baf2-4495-a187-cdd6c45db9ce")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R11")
 					(unit 1)
@@ -6590,7 +6590,7 @@
 			(uuid "8c3d356f-3482-48e1-9fac-01c2b2152d8c")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND36")
 					(unit 1)
@@ -6656,7 +6656,7 @@
 			(uuid "d02cf08d-3863-48c4-99e8-1a59aab7f5fd")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND062")
 					(unit 1)
@@ -6766,7 +6766,7 @@
 			(uuid "6b6af7b7-e459-474a-a4cf-3f372bc97bbc")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "IC7")
 					(unit 1)
@@ -6848,7 +6848,7 @@
 			(uuid "fa4cf405-9af0-4dfa-b940-dcb0c34583cb")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "JP1")
 					(unit 1)
@@ -6915,7 +6915,7 @@
 			(uuid "6b211737-af0e-434e-8ca5-5ff9617e0d5d")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND40")
 					(unit 1)
@@ -6981,7 +6981,7 @@
 			(uuid "5ae8b37e-c5c2-49bb-8526-08fe69877566")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+053")
 					(unit 1)
@@ -7047,7 +7047,7 @@
 			(uuid "76dde50e-b5a6-4310-8cd1-12a240452bc1")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+28")
 					(unit 1)
@@ -7113,7 +7113,7 @@
 			(uuid "fd2534a4-83a8-40d5-9fab-78cc7ad53250")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+33")
 					(unit 1)
@@ -7223,7 +7223,7 @@
 			(uuid "2650be2a-129d-4a11-bb92-4c8e393239f1")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "IC5")
 					(unit 1)
@@ -7290,7 +7290,7 @@
 			(uuid "8ba171b6-1ead-4912-ab75-e34843373c71")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND50")
 					(unit 1)
@@ -7357,7 +7357,7 @@
 			(uuid "70769562-a769-4993-89cb-b035e7b4688b")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND41")
 					(unit 1)
@@ -7423,7 +7423,7 @@
 			(uuid "fffc886e-74bd-48a3-8dfa-1528f6ec23d7")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+056")
 					(unit 1)
@@ -7489,7 +7489,7 @@
 			(uuid "ebfee2e9-49ad-438d-bfb2-f76bb5cb61e0")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+39")
 					(unit 1)
@@ -7561,7 +7561,7 @@
 			(uuid "d1ce8949-acae-4eed-9626-5a42da7e9759")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R21")
 					(unit 1)
@@ -7627,7 +7627,7 @@
 			(uuid "6042c9f7-dac4-4aa3-a876-f97cba472682")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND47")
 					(unit 1)
@@ -7694,7 +7694,7 @@
 			(uuid "b8faba00-890c-484b-b275-c9f02bd572db")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND59")
 					(unit 1)
@@ -7760,7 +7760,7 @@
 			(uuid "814c9b5f-b0e8-4ed3-913c-aa91b7e55737")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+48")
 					(unit 1)
@@ -7831,7 +7831,7 @@
 			(uuid "4c57f3ec-86fa-46c7-9cd2-8b7a5ed74c09")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R29")
 					(unit 1)
@@ -7902,7 +7902,7 @@
 			(uuid "a502ffa6-1a58-4eb4-b0be-1bd59bd2ef1d")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R28")
 					(unit 1)
@@ -8012,7 +8012,7 @@
 			(uuid "bf6c519f-5f1d-4d50-a156-54d40c66df2e")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "IC4")
 					(unit 1)
@@ -8084,7 +8084,7 @@
 			(uuid "f5e2b853-323f-4f01-88bc-bca3a8361a76")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R5")
 					(unit 1)
@@ -8150,7 +8150,7 @@
 			(uuid "a268c30e-6723-41a5-a0f8-01d3f86a90bb")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+054")
 					(unit 1)
@@ -8216,7 +8216,7 @@
 			(uuid "9fe522c5-e935-4634-b3be-6aedcc36ca5a")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+24")
 					(unit 1)
@@ -8282,7 +8282,7 @@
 			(uuid "209ee58f-3f28-4756-a868-26e85cb2519d")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+45")
 					(unit 1)
@@ -8353,7 +8353,7 @@
 			(uuid "66bf7e9c-0a25-4fc4-bae6-1ccae44f800d")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R7")
 					(unit 1)
@@ -8420,7 +8420,7 @@
 			(uuid "a7cac5c6-accd-4c1d-901f-a0f11dbe6bc3")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND23")
 					(unit 1)
@@ -8492,7 +8492,7 @@
 			(uuid "c90a3691-a325-46f5-8549-5f2f5f98a1d5")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R25")
 					(unit 1)
@@ -8558,7 +8558,7 @@
 			(uuid "6965e731-1979-4123-ba20-6dadb7862e4c")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND57")
 					(unit 1)
@@ -8630,7 +8630,7 @@
 			(uuid "0e46c9b6-57ec-4276-98e2-dfb0ce011fa4")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R4")
 					(unit 1)
@@ -8696,7 +8696,7 @@
 			(uuid "0b5c51b9-793e-4ab1-92f6-cc11ebfff32d")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+27")
 					(unit 1)
@@ -8762,7 +8762,7 @@
 			(uuid "02d0c1b4-5c78-4a73-a3b0-d86ba01491fc")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+43")
 					(unit 1)
@@ -8828,7 +8828,7 @@
 			(uuid "e335f7ca-e0c6-4952-b1a0-e186ef920eff")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+3")
 					(unit 1)
@@ -8894,7 +8894,7 @@
 			(uuid "53f8b4fb-e496-4c15-8050-87ab5b739284")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND49")
 					(unit 1)
@@ -8960,7 +8960,7 @@
 			(uuid "36cc83e4-935a-4e43-bd1f-cb42138254e3")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND51")
 					(unit 1)
@@ -9026,7 +9026,7 @@
 			(uuid "19ec8153-c8d0-409d-8036-2f1aa8c10c92")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+19")
 					(unit 1)
@@ -9092,7 +9092,7 @@
 			(uuid "9fb800d9-7ee5-41a4-b40e-85ec3a016ff8")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+057")
 					(unit 1)
@@ -9158,7 +9158,7 @@
 			(uuid "3edc289b-1023-4ac5-a4f2-0dac2f7e0b7f")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+32")
 					(unit 1)
@@ -9228,7 +9228,7 @@
 			(uuid "fe07cbbc-f700-434f-a53b-8ff9914a6082")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "C8")
 					(unit 1)
@@ -9294,7 +9294,7 @@
 			(uuid "9b46b7e1-3452-4520-b40f-f5189301f7e3")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+41")
 					(unit 1)
@@ -9361,7 +9361,7 @@
 			(uuid "52e4e0bb-5cf9-4c93-8859-de2bf3841040")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND46")
 					(unit 1)
@@ -9471,7 +9471,7 @@
 			(uuid "0ac34b42-8f74-4dca-90e0-8063cc23461d")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "IC6")
 					(unit 1)
@@ -9537,7 +9537,7 @@
 			(uuid "53cd5eef-c693-4c00-a1b3-9b321174afef")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+034")
 					(unit 1)
@@ -9603,7 +9603,7 @@
 			(uuid "afe33550-88dc-4dc2-94c5-7ae06919b31c")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+055")
 					(unit 1)
@@ -9670,7 +9670,7 @@
 			(uuid "d70df69c-00d3-43d8-b096-e267a1ffb089")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND4")
 					(unit 1)
@@ -9736,7 +9736,7 @@
 			(uuid "efa089b2-b5d1-46a2-8d57-5adce051f2f0")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND30")
 					(unit 1)
@@ -9808,7 +9808,7 @@
 			(uuid "83fce15b-36cc-4192-8cc6-e3794d04562c")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R40")
 					(unit 1)
@@ -9880,7 +9880,7 @@
 			(uuid "8be86571-eaac-4d76-a226-3f2477f800bf")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R44")
 					(unit 1)
@@ -9952,7 +9952,7 @@
 			(uuid "56d883ba-9427-4f55-bee5-28d133f55ab4")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R43")
 					(unit 1)
@@ -10018,7 +10018,7 @@
 			(uuid "5d637c24-1786-42ba-9687-6d53fa2b5425")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND53")
 					(unit 1)
@@ -10090,7 +10090,7 @@
 			(uuid "a431cfba-9166-4152-b493-e8b61fb8ab3b")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R45")
 					(unit 1)
@@ -10161,7 +10161,7 @@
 			(uuid "7bef9153-0734-4ec0-a31e-a2ff83d48c43")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R30")
 					(unit 1)
@@ -10227,7 +10227,7 @@
 			(uuid "b463dfd9-28dd-4ac8-9fdc-f7b5e89aa000")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+23")
 					(unit 1)
@@ -10293,7 +10293,7 @@
 			(uuid "cdb7a44f-1fea-4fb4-a936-9f3134e92c32")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND52")
 					(unit 1)
@@ -10359,7 +10359,7 @@
 			(uuid "566e050e-5d5a-4bf2-b3e2-84508c60afb6")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+44")
 					(unit 1)
@@ -10426,7 +10426,7 @@
 			(uuid "56bd9de4-6a5e-47ea-9926-409dcfd49434")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND38")
 					(unit 1)
@@ -10493,7 +10493,7 @@
 			(uuid "b76f43fa-e2ca-44de-b6a3-997fc9b4c5e1")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND54")
 					(unit 1)
@@ -10559,7 +10559,7 @@
 			(uuid "e06ec35e-d8b6-4eb9-87cb-93010baa2a89")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+47")
 					(unit 1)
@@ -10625,7 +10625,7 @@
 			(uuid "3d9b14b1-6d5c-46be-a224-2735b051a5eb")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND066")
 					(unit 1)
@@ -10691,7 +10691,7 @@
 			(uuid "7557e91f-e4ad-450b-a72b-24f35a1d1d9a")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND45")
 					(unit 1)
@@ -10757,7 +10757,7 @@
 			(uuid "10cb7461-71ea-4ccf-b339-9ba4836907e8")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+052")
 					(unit 1)
@@ -10823,7 +10823,7 @@
 			(uuid "4972e32d-b7b5-414e-a39e-7802bde5ac18")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+29")
 					(unit 1)
@@ -10895,7 +10895,7 @@
 			(uuid "58cb16a9-da83-4ea5-9b79-e7f219d7c35e")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R12")
 					(unit 1)
@@ -10961,7 +10961,7 @@
 			(uuid "dc3b4410-c851-420a-a316-7463ecc2f650")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+10")
 					(unit 1)
@@ -11027,7 +11027,7 @@
 			(uuid "cfb055ba-c84d-4fdb-b537-2480134ad231")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+31")
 					(unit 1)
@@ -11094,7 +11094,7 @@
 			(uuid "ad7d6487-4f7f-4b74-8fb3-a0a60609dca9")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND24")
 					(unit 1)
@@ -11165,7 +11165,7 @@
 			(uuid "dd8b70fa-ff81-4261-90dd-f1ec850212b5")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R27")
 					(unit 1)
@@ -11231,7 +11231,7 @@
 			(uuid "291ababe-b3ad-4ce6-b415-ed7bb83b06d5")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND37")
 					(unit 1)
@@ -11297,7 +11297,7 @@
 			(uuid "bc9f701d-9684-4e08-902d-cc31e14b772d")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND55")
 					(unit 1)
@@ -11369,7 +11369,7 @@
 			(uuid "332aedf1-69bc-464c-bed3-3a2879a54998")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R42")
 					(unit 1)
@@ -11435,7 +11435,7 @@
 			(uuid "05ad7698-09b6-4880-9b88-dae606cbd954")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+38")
 					(unit 1)
@@ -11501,7 +11501,7 @@
 			(uuid "5db89447-cd74-4e47-b6ab-2544ec98ddcd")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+40")
 					(unit 1)
@@ -11573,7 +11573,7 @@
 			(uuid "b623f863-7ed9-496f-aa63-8a7b9bf406b4")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R22")
 					(unit 1)
@@ -11639,7 +11639,7 @@
 			(uuid "f411eb57-67d6-451d-95e8-5e6f83896084")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND042")
 					(unit 1)
@@ -11706,7 +11706,7 @@
 			(uuid "fcacba53-be5c-4b26-8990-5f0b1dac6fc5")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND25")
 					(unit 1)
@@ -11772,7 +11772,7 @@
 			(uuid "14f8f865-21a4-4d8f-a6ba-266b7ad75b39")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND33")
 					(unit 1)
@@ -11838,7 +11838,7 @@
 			(uuid "a86617c0-70c9-46c6-9165-5abaedfc29c9")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND065")
 					(unit 1)
@@ -11909,7 +11909,7 @@
 			(uuid "33552e66-233a-4395-bc9b-ebdb76bf14c7")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R6")
 					(unit 1)
@@ -11975,7 +11975,7 @@
 			(uuid "f6ec068a-eb17-476d-b327-034456a5c154")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND32")
 					(unit 1)
@@ -12041,7 +12041,7 @@
 			(uuid "2c3aa75e-60ed-4585-a6ca-71f91f2b821e")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+42")
 					(unit 1)
@@ -12113,7 +12113,7 @@
 			(uuid "b7e12747-3bcc-4676-8ec6-1dd1ec040563")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R20")
 					(unit 1)
@@ -12180,7 +12180,7 @@
 			(uuid "8da831f2-9d16-40ab-984a-22b2ba9d3d5d")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND39")
 					(unit 1)
@@ -12246,7 +12246,7 @@
 			(uuid "5d3ca3b6-af06-4421-83a6-b9971920baf0")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND060")
 					(unit 1)
@@ -12312,7 +12312,7 @@
 			(uuid "953a53e1-829e-48e1-af19-9407535d7ecb")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#P+30")
 					(unit 1)
@@ -12378,7 +12378,7 @@
 			(uuid "519c171b-9d2b-43d4-924c-92f856f1a813")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND064")
 					(unit 1)
@@ -12449,7 +12449,7 @@
 			(uuid "6b03d5b1-4e4a-44d7-9941-9e531b75ff14")
 		)
 		(instances
-			(project ""
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "R13")
 					(unit 1)
@@ -12515,7 +12515,7 @@
 			(uuid "690750e8-ebc1-451e-82ce-581f9d0db0c3")
 		)
 		(instances
-			(project "shruthi_control_board_xt_v03"
+			(project "control_board"
 				(path "/2c840835-6e01-4901-947c-222cae369ab9/0c3d5e30-d7c9-4d12-84cf-e52c2ca8d768"
 					(reference "#GND061")
 					(unit 1)
