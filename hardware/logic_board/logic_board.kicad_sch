@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0551f752-2822-4c6f-ba36-5417ded0bd9a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 152.4 38.1)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "394b44e0-9e0d-4558-9db3-f7c79bbc5c2a")
+		(property "Sheetname" "Shift Registers"
+			(at 152.4 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shift_registers.kicad_sch"
+			(at 152.4 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logic_board"
+				(path "/0551f752-2822-4c6f-ba36-5417ded0bd9a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 38.1)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d6f8ba1-18b4-427a-993c-5586451b58fd")
+		(property "Sheetname" "MCU"
+			(at 50.8 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 50.8 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logic_board"
+				(path "/0551f752-2822-4c6f-ba36-5417ded0bd9a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 38.1)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "daadc396-c443-4946-b851-9e04e089a691")
+		(property "Sheetname" "MIDI"
+			(at 76.2 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "midi.kicad_sch"
+			(at 76.2 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logic_board"
+				(path "/0551f752-2822-4c6f-ba36-5417ded0bd9a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 38.1)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f08b7ec3-2fc7-45c7-bd3d-6a702d6dfbac")
+		(property "Sheetname" "LED Driver"
+			(at 127 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_driver.kicad_sch"
+			(at 127 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logic_board"
+				(path "/0551f752-2822-4c6f-ba36-5417ded0bd9a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 38.1)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f65faadd-329e-4249-810f-8af146b13ed9")
+		(property "Sheetname" "Multiplexers"
+			(at 101.6 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "multiplexers.kicad_sch"
+			(at 101.6 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logic_board"
+				(path "/0551f752-2822-4c6f-ba36-5417ded0bd9a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

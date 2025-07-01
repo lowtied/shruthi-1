@@ -249,7 +249,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "io_board.kicad_pro",
+    "filename": "logic_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -409,8 +409,28 @@
   },
   "sheets": [
     [
-      "b77445f3-88d0-4efd-b0f2-fd71c6b037da",
+      "0551f752-2822-4c6f-ba36-5417ded0bd9a",
       "Root"
+    ],
+    [
+      "4d6f8ba1-18b4-427a-993c-5586451b58fd",
+      "MCU"
+    ],
+    [
+      "daadc396-c443-4946-b851-9e04e089a691",
+      "MIDI"
+    ],
+    [
+      "f65faadd-329e-4249-810f-8af146b13ed9",
+      "Multiplexers"
+    ],
+    [
+      "f08b7ec3-2fc7-45c7-bd3d-6a702d6dfbac",
+      "LED Driver"
+    ],
+    [
+      "394b44e0-9e0d-4558-9db3-f7c79bbc5c2a",
+      "Shift Registers"
     ]
   ],
   "text_variables": {}
